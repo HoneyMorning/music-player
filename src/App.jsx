@@ -1,14 +1,6 @@
 import React from 'react';
-import style from './App.css';
-
-/**
- * helloWord
- *
- * @params {any} word
- */
-function helloWorld(word) {
-  console.warn(`Hello ${word}`);
-}
+import Header from './components/Header';
+import Player from './components/Player';
 
 /**
  * App root component
@@ -16,11 +8,13 @@ function helloWorld(word) {
  * @return
  */
 function App() {
-  helloWorld('world');
   return (
-    <header>
-      <h1 className={style.font}>Hello World</h1>
-    </header>
+    <section>
+      <Header />
+      <div className="container">
+        <Player />
+      </div>
+    </section>
   );
 }
 
