@@ -7,6 +7,7 @@ class MPlayer {
       totalTime: 0,
       percent: 0,
     };
+    this.playing = false;
   }
 
   initEventListener() {
@@ -22,7 +23,6 @@ class MPlayer {
     function playingProgress() {
       console.warn('playing ... ');
       self.progress.currentTime = self.audio.currentTime;
-      self.progressListener();
 
       if (self.progress.currentTime < self.progress.totalTime) {
         progressID = requestAnimationFrame(playingProgress);
@@ -36,22 +36,19 @@ class MPlayer {
 
     function playing() {
       console.warn('Playing');
+      self.playing = true;
       progressID = requestAnimationFrame(playingProgress);
     }
 
     function pause() {
       console.warn('Paused');
+      self.playing = false;
       cancelAnimationFrame(progressID);
     }
 
     this.audio.addEventListener('loadedmetadata', loadedmetadata, false);
     this.audio.addEventListener('playing', playing, false);
     this.audio.addEventListener('pause', pause, false);
-  }
-
-  progressListener() {
-    // guangbo
-    console.warn('Playing --- ', this.progress);
   }
 
   play() {

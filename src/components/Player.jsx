@@ -4,30 +4,36 @@ import MPlayer from '../assets/lib/mplayer';
 import Progress from './Progress';
 import music from '../assets/audio/Hymn-For-The-Weekend.mp3';
 import logo from '../assets/images/avator.jpeg';
+import PlayerList from './PlayerList';
 
 class Player extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
       duration: 0,
-      currentProgress: 0,
+      current: 0,
       playing: false,
     };
 
     this.audio = null;
+    this.progressID = null;
     this.handlePlay = this.handlePlay.bind(this);
+    this.playingProgress = this.playingProgress.bind(this);
   }
 
   componentDidMount() {
     this.audio = new MPlayer('audio');
-    this.initPlayer();
   }
 
-  initPlayer() {
-    this.audio.progressListener((progress) => {
-      console.warn('=================');
-      console.warn(progress);
+  playingProgress() {
+    this.setState({
+      duration: this.audio.progress.totalTime,
+      current: this.audio.progress.currentTime,
     });
+
+    if (this.audio.progress.currentTime < this.audio.progress.totalTime) {
+      this.progressID = window.requestAnimationFrame(this.playingProgress);
+    }
   }
 
   handlePlay() {
@@ -35,8 +41,10 @@ class Player extends React.Component {
 
     if (playing) { // stop
       this.audio.pause();
+      window.cancelAnimationFrame(this.progressID);
     } else { // play
       this.audio.play();
+      this.progressID = window.requestAnimationFrame(this.playingProgress);
     }
 
     this.setState({
@@ -62,21 +70,10 @@ class Player extends React.Component {
             </div>
           </div>
 
-          <div className="col-lg-8 col-md-12">
-            <main>
-              <div className="card">
-                <div className="card-header">Music List</div>
-                <ul className="list-group list-group-flush">
-                  <li className="list-group-item">黄昏</li>
-                  <li className="list-group-item">明天，你好</li>
-                  <li className="list-group-item">海阔天空</li>
-                </ul>
-              </div>
-            </main>
-          </div>
+          <PlayerList />
         </div>
 
-        <Progress progress={this.state.duration} currentProgress={this.state.currentProgress} />
+        <Progress duration={this.state.duration} current={this.state.current} />
       </section>
     );
   }
