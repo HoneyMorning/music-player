@@ -1,5 +1,7 @@
 # music-player
 
+![MPlayer](./docs/README.png)
+
 ## Installation And Usage
 
 ```bash

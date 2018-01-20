@@ -19,7 +19,7 @@
         "byName": {},
         "byBlocks": {},
         "usedIds": {
-          "1": 1
+          "0": 0
         }
       }
     }
@@ -82,7 +82,78 @@
       "node_modules/babel-loader/lib/index.js??ref--0-oneOf-0-0!node_modules/eslint-loader/index.js!src/index.jsx": "./src/index.jsx",
       "delegated 4 from dll-reference vendor_e2e4b0873fe01342b86d": "GiK3",
       "delegated 18 from dll-reference vendor_e2e4b0873fe01342b86d": "O27J",
-      "external \"vendor_e2e4b0873fe01342b86d\"": "aKIY"
+      "external \"vendor_e2e4b0873fe01342b86d\"": "aKIY",
+      "node_modules/react-redux/es/connect/mapStateToProps.js": "1iL5",
+      "node_modules/lodash-es/_overArg.js": "28Po",
+      "node_modules/redux/es/index.js": "2KeS",
+      "node_modules/symbol-observable/index.js": "2MIV",
+      "node_modules/webpack/buildin/module.js": "3IRH",
+      "node_modules/babel-loader/lib/index.js??ref--0-oneOf-0-0!node_modules/eslint-loader/index.js!src/components/Player.jsx": "5jdc",
+      "node_modules/babel-loader/lib/index.js??ref--0-oneOf-0-0!node_modules/eslint-loader/index.js!src/components/Header.jsx": "5l0t",
+      "delegated 2 from dll-reference vendor_e2e4b0873fe01342b86d": "BEQ0",
+      "node_modules/babel-loader/lib/index.js??ref--0-oneOf-0-0!node_modules/eslint-loader/index.js!src/reducers/index.js": "ChGC",
+      "node_modules/redux/es/utils/warning.js": "DEeB",
+      "node_modules/extract-text-webpack-plugin/dist/loader.js??ref--0-oneOf-3-0!node_modules/style-loader/index.js??ref--0-oneOf-3-1!node_modules/css-loader/index.js??ref--0-oneOf-3-2!node_modules/postcss-loader/lib/index.js??postcss!node_modules/sass-loader/lib/loader.js??ref--0-oneOf-3-4!src/components/header.scss": "DoyV",
+      "node_modules/webpack/buildin/global.js": "DuR2",
+      "node_modules/babel-loader/lib/index.js??ref--0-oneOf-0-0!node_modules/eslint-loader/index.js!src/assets/lib/mplayer.js": "E82R",
+      "node_modules/lodash-es/_Symbol.js": "EZG+",
+      "node_modules/css-loader/index.js?{\"importLoaders\":1,\"minimize\":true,\"sourceMap\":false,\"localIdentName\":\"[name]_[local]_[hash:base64:5]\"}!node_modules/postcss-loader/lib/index.js?{\"ident\":\"postcss\",\"sourceMap\":false}!node_modules/font-awesome/css/font-awesome.min.css": "FOHs",
+      "node_modules/file-loader/dist/cjs.js??ref--0-oneOf-4!node_modules/font-awesome/fonts/fontawesome-webfont.svg?v=4.7.0": "Fqd/",
+      "node_modules/react-redux/es/utils/verifyPlainObject.js": "Htzn",
+      "node_modules/file-loader/dist/cjs.js??ref--0-oneOf-4!node_modules/font-awesome/fonts/fontawesome-webfont.ttf?v=4.7.0": "IMLV",
+      "delegated 7 from dll-reference vendor_e2e4b0873fe01342b86d": "Ie6m",
+      "node_modules/lodash-es/_getPrototype.js": "J/I/",
+      "node_modules/prop-types/factoryWithTypeCheckers.js": "JtmH",
+      "node_modules/prop-types/index.js": "KSGD",
+      "node_modules/lodash-es/_getRawTag.js": "LF1K",
+      "node_modules/react-redux/es/utils/Subscription.js": "MCT5",
+      "node_modules/file-loader/dist/cjs.js??ref--0-oneOf-4!src/assets/audio/Hymn-For-The-Weekend.mp3": "NQJG",
+      "node_modules/react-redux/es/components/Provider.js": "PMgr",
+      "node_modules/prop-types/factoryWithThrowingShims.js": "Q4WQ",
+      "node_modules/react-redux/es/connect/mergeProps.js": "QGoG",
+      "node_modules/react-redux/es/index.js": "RH2O",
+      "node_modules/react-redux/es/components/connectAdvanced.js": "SAW1",
+      "node_modules/react-redux/es/connect/wrapMapToProps.js": "U33l",
+      "node_modules/babel-loader/lib/index.js??ref--0-oneOf-0-0!node_modules/eslint-loader/index.js!src/reducers/testReducer.js": "UVju",
+      "node_modules/css-loader/index.js?{\"importLoaders\":2,\"minimize\":true,\"sourceMap\":false,\"localIdentName\":\"[name]_[local]_[hash:base64:5]\"}!node_modules/postcss-loader/lib/index.js?{\"ident\":\"postcss\",\"sourceMap\":false}!node_modules/sass-loader/lib/loader.js?{\"sourceMap\":false}!src/components/header.scss": "V7JD",
+      "node_modules/react-redux/es/connect/selectorFactory.js": "VDa7",
+      "delegated 0 from dll-reference vendor_e2e4b0873fe01342b86d": "W2nU",
+      "node_modules/lodash-es/_root.js": "WlpS",
+      "node_modules/lodash-es/_objectToString.js": "X0mE",
+      "node_modules/lodash-es/isObjectLike.js": "YByk",
+      "delegated 6 from dll-reference vendor_e2e4b0873fe01342b86d": "YyeZ",
+      "node_modules/redux/es/createStore.js": "ZBO9",
+      "node_modules/react-redux/es/utils/shallowEqual.js": "aQGf",
+      "node_modules/symbol-observable/lib/index.js": "bFAv",
+      "node_modules/react-redux/es/utils/warning.js": "byaS",
+      "node_modules/css-loader/index.js?{\"importLoaders\":1,\"minimize\":true,\"sourceMap\":false,\"localIdentName\":\"[name]_[local]_[hash:base64:5]\"}!node_modules/postcss-loader/lib/index.js?{\"ident\":\"postcss\",\"sourceMap\":false}!node_modules/bootstrap/dist/css/bootstrap.min.css": "c7y6",
+      "node_modules/file-loader/dist/cjs.js??ref--0-oneOf-4!node_modules/font-awesome/fonts/fontawesome-webfont.eot?v=4.7.0": "cEaC",
+      "node_modules/file-loader/dist/cjs.js??ref--0-oneOf-4!node_modules/font-awesome/fonts/fontawesome-webfont.eot": "cmUn",
+      "node_modules/invariant/browser.js": "crWv",
+      "delegated 5 from dll-reference vendor_e2e4b0873fe01342b86d": "cxPT",
+      "node_modules/extract-text-webpack-plugin/dist/loader.js??ref--0-oneOf-2-0!node_modules/style-loader/index.js??ref--0-oneOf-2-1!node_modules/css-loader/index.js??ref--0-oneOf-2-2!node_modules/postcss-loader/lib/index.js??postcss!node_modules/font-awesome/css/font-awesome.min.css": "e0XP",
+      "delegated 1 from dll-reference vendor_e2e4b0873fe01342b86d": "e6+Q",
+      "node_modules/babel-loader/lib/index.js??ref--0-oneOf-0-0!node_modules/eslint-loader/index.js!src/components/PlayerList.jsx": "eoDh",
+      "node_modules/react-redux/es/utils/PropTypes.js": "faAt",
+      "node_modules/url-loader/index.js??ref--0-oneOf-1!src/assets/images/avator.jpeg": "foMb",
+      "delegated 17 from dll-reference vendor_e2e4b0873fe01342b86d": "gt/O",
+      "node_modules/hoist-non-react-statics/index.js": "hYij",
+      "node_modules/file-loader/dist/cjs.js??ref--0-oneOf-4!node_modules/font-awesome/fonts/fontawesome-webfont.woff?v=4.7.0": "jNsU",
+      "node_modules/babel-loader/lib/index.js??ref--0-oneOf-0-0!node_modules/eslint-loader/index.js!src/components/Progress.jsx": "jyFb",
+      "node_modules/css-loader/lib/url/escape.js": "kxFB",
+      "node_modules/react-redux/es/connect/mapDispatchToProps.js": "l5Tb",
+      "node_modules/redux/es/bindActionCreators.js": "lCUn",
+      "node_modules/redux/es/compose.js": "lMc7",
+      "node_modules/react-redux/es/connect/verifySubselectors.js": "mqO+",
+      "node_modules/lodash-es/_freeGlobal.js": "nSxQ",
+      "node_modules/file-loader/dist/cjs.js??ref--0-oneOf-4!node_modules/font-awesome/fonts/fontawesome-webfont.woff2?v=4.7.0": "of+2",
+      "node_modules/extract-text-webpack-plugin/dist/loader.js??ref--0-oneOf-2-0!node_modules/style-loader/index.js??ref--0-oneOf-2-1!node_modules/css-loader/index.js??ref--0-oneOf-2-2!node_modules/postcss-loader/lib/index.js??postcss!node_modules/bootstrap/dist/css/bootstrap.min.css": "qb6w",
+      "node_modules/lodash-es/isPlainObject.js": "sMP3",
+      "node_modules/redux/es/applyMiddleware.js": "vgv3",
+      "node_modules/lodash-es/_baseGetTag.js": "wqbf",
+      "node_modules/redux/es/combineReducers.js": "x52Y",
+      "node_modules/react-redux/es/connect/connect.js": "yyvF",
+      "node_modules/symbol-observable/lib/ponyfill.js": "zzRL"
     },
     "usedIds": {
       "./node_modules/css-loader/index.js?{\"importLoaders\":1,\"minimize\":true,\"sourceMap\":false,\"localIdentName\":\"[name]_[local]_[hash:base64:5]\"}!./node_modules/postcss-loader/lib/index.js?{\"ident\":\"postcss\",\"sourceMap\":false}!./src/App.css": "./node_modules/css-loader/index.js?{\"importLoaders\":1,\"minimize\":true,\"sourceMap\":false,\"localIdentName\":\"[name]_[local]_[hash:base64:5]\"}!./node_modules/postcss-loader/lib/index.js?{\"ident\":\"postcss\",\"sourceMap\":false}!./src/App.css",
@@ -120,7 +191,78 @@
       "./src/index.jsx": "./src/index.jsx",
       "GiK3": "GiK3",
       "O27J": "O27J",
-      "aKIY": "aKIY"
+      "aKIY": "aKIY",
+      "1iL5": "1iL5",
+      "28Po": "28Po",
+      "2KeS": "2KeS",
+      "2MIV": "2MIV",
+      "3IRH": "3IRH",
+      "5jdc": "5jdc",
+      "5l0t": "5l0t",
+      "BEQ0": "BEQ0",
+      "ChGC": "ChGC",
+      "DEeB": "DEeB",
+      "DoyV": "DoyV",
+      "DuR2": "DuR2",
+      "E82R": "E82R",
+      "EZG+": "EZG+",
+      "FOHs": "FOHs",
+      "Fqd/": "Fqd/",
+      "Htzn": "Htzn",
+      "IMLV": "IMLV",
+      "Ie6m": "Ie6m",
+      "J/I/": "J/I/",
+      "JtmH": "JtmH",
+      "KSGD": "KSGD",
+      "LF1K": "LF1K",
+      "MCT5": "MCT5",
+      "NQJG": "NQJG",
+      "PMgr": "PMgr",
+      "Q4WQ": "Q4WQ",
+      "QGoG": "QGoG",
+      "RH2O": "RH2O",
+      "SAW1": "SAW1",
+      "U33l": "U33l",
+      "UVju": "UVju",
+      "V7JD": "V7JD",
+      "VDa7": "VDa7",
+      "W2nU": "W2nU",
+      "WlpS": "WlpS",
+      "X0mE": "X0mE",
+      "YByk": "YByk",
+      "YyeZ": "YyeZ",
+      "ZBO9": "ZBO9",
+      "aQGf": "aQGf",
+      "bFAv": "bFAv",
+      "byaS": "byaS",
+      "c7y6": "c7y6",
+      "cEaC": "cEaC",
+      "cmUn": "cmUn",
+      "crWv": "crWv",
+      "cxPT": "cxPT",
+      "e0XP": "e0XP",
+      "e6+Q": "e6+Q",
+      "eoDh": "eoDh",
+      "faAt": "faAt",
+      "foMb": "foMb",
+      "gt/O": "gt/O",
+      "hYij": "hYij",
+      "jNsU": "jNsU",
+      "jyFb": "jyFb",
+      "kxFB": "kxFB",
+      "l5Tb": "l5Tb",
+      "lCUn": "lCUn",
+      "lMc7": "lMc7",
+      "mqO+": "mqO+",
+      "nSxQ": "nSxQ",
+      "of+2": "of+2",
+      "qb6w": "qb6w",
+      "sMP3": "sMP3",
+      "vgv3": "vgv3",
+      "wqbf": "wqbf",
+      "x52Y": "x52Y",
+      "yyvF": "yyvF",
+      "zzRL": "zzRL"
     }
   },
   "chunks": {
@@ -131,5 +273,82 @@
     "usedIds": {
       "0": 0
     }
-  }
+  },
+  "extract-text-webpack-plugin node_modules/extract-text-webpack-plugin/dist node_modules/css-loader/index.js??ref--0-oneOf-2-2!node_modules/postcss-loader/lib/index.js??postcss!node_modules/bootstrap/dist/css/bootstrap.min.css": [
+    {
+      "modules": {
+        "byIdentifier": {
+          "node_modules/css-loader/lib/css-base.js": "FZ+f",
+          "node_modules/css-loader/index.js?{\"importLoaders\":1,\"minimize\":true,\"sourceMap\":false,\"localIdentName\":\"[name]_[local]_[hash:base64:5]\"}!node_modules/postcss-loader/lib/index.js?{\"ident\":\"postcss\",\"sourceMap\":false}!node_modules/bootstrap/dist/css/bootstrap.min.css": "c7y6"
+        },
+        "usedIds": {
+          "FZ+f": "FZ+f",
+          "c7y6": "c7y6"
+        }
+      },
+      "chunks": {
+        "byName": {},
+        "byBlocks": {},
+        "usedIds": {
+          "0": 0
+        }
+      }
+    }
+  ],
+  "extract-text-webpack-plugin node_modules/extract-text-webpack-plugin/dist node_modules/css-loader/index.js??ref--0-oneOf-2-2!node_modules/postcss-loader/lib/index.js??postcss!node_modules/font-awesome/css/font-awesome.min.css": [
+    {
+      "modules": {
+        "byIdentifier": {
+          "node_modules/css-loader/index.js?{\"importLoaders\":1,\"minimize\":true,\"sourceMap\":false,\"localIdentName\":\"[name]_[local]_[hash:base64:5]\"}!node_modules/postcss-loader/lib/index.js?{\"ident\":\"postcss\",\"sourceMap\":false}!node_modules/font-awesome/css/font-awesome.min.css": "FOHs",
+          "node_modules/css-loader/lib/css-base.js": "FZ+f",
+          "node_modules/file-loader/dist/cjs.js??ref--0-oneOf-4!node_modules/font-awesome/fonts/fontawesome-webfont.svg?v=4.7.0": "Fqd/",
+          "node_modules/file-loader/dist/cjs.js??ref--0-oneOf-4!node_modules/font-awesome/fonts/fontawesome-webfont.ttf?v=4.7.0": "IMLV",
+          "node_modules/file-loader/dist/cjs.js??ref--0-oneOf-4!node_modules/font-awesome/fonts/fontawesome-webfont.eot?v=4.7.0": "cEaC",
+          "node_modules/file-loader/dist/cjs.js??ref--0-oneOf-4!node_modules/font-awesome/fonts/fontawesome-webfont.eot": "cmUn",
+          "node_modules/file-loader/dist/cjs.js??ref--0-oneOf-4!node_modules/font-awesome/fonts/fontawesome-webfont.woff?v=4.7.0": "jNsU",
+          "node_modules/css-loader/lib/url/escape.js": "kxFB",
+          "node_modules/file-loader/dist/cjs.js??ref--0-oneOf-4!node_modules/font-awesome/fonts/fontawesome-webfont.woff2?v=4.7.0": "of+2"
+        },
+        "usedIds": {
+          "FOHs": "FOHs",
+          "FZ+f": "FZ+f",
+          "Fqd/": "Fqd/",
+          "IMLV": "IMLV",
+          "cEaC": "cEaC",
+          "cmUn": "cmUn",
+          "jNsU": "jNsU",
+          "kxFB": "kxFB",
+          "of+2": "of+2"
+        }
+      },
+      "chunks": {
+        "byName": {},
+        "byBlocks": {},
+        "usedIds": {
+          "0": 0
+        }
+      }
+    }
+  ],
+  "extract-text-webpack-plugin node_modules/extract-text-webpack-plugin/dist node_modules/css-loader/index.js??ref--0-oneOf-3-2!node_modules/postcss-loader/lib/index.js??postcss!node_modules/sass-loader/lib/loader.js??ref--0-oneOf-3-4!src/components/header.scss": [
+    {
+      "modules": {
+        "byIdentifier": {
+          "node_modules/css-loader/lib/css-base.js": "FZ+f",
+          "node_modules/css-loader/index.js?{\"importLoaders\":2,\"minimize\":true,\"sourceMap\":false,\"localIdentName\":\"[name]_[local]_[hash:base64:5]\"}!node_modules/postcss-loader/lib/index.js?{\"ident\":\"postcss\",\"sourceMap\":false}!node_modules/sass-loader/lib/loader.js?{\"sourceMap\":false}!src/components/header.scss": "V7JD"
+        },
+        "usedIds": {
+          "FZ+f": "FZ+f",
+          "V7JD": "V7JD"
+        }
+      },
+      "chunks": {
+        "byName": {},
+        "byBlocks": {},
+        "usedIds": {
+          "0": 0
+        }
+      }
+    }
+  ]
 }
