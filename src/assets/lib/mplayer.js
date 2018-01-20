@@ -53,6 +53,14 @@ class MPlayer {
     // guangbo
     console.warn('Playing --- ', this.progress);
   }
+
+  play() {
+    this.audio.play();
+  }
+
+  pause() {
+    this.audio.pause();
+  }
 }
 
 export default MPlayer;

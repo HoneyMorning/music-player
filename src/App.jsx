@@ -9,7 +9,7 @@ import Player from './components/Player';
  */
 function App() {
   return (
-    <section>
+    <section style={{ backgroundColor: '#eee' }}>
       <Header />
       <div className="container">
         <Player />
