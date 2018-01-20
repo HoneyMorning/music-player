@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <base data-ice="baseUrl">
+  <title data-ice="title">Home | music-player</title>
+  <link type="text/css" rel="stylesheet" href="css/style.css">
+  <link type="text/css" rel="stylesheet" href="css/prettify-tomorrow.css">
+  <script src="script/prettify/prettify.js"></script>
+  <script src="script/manual.js"></script>
+<meta name="description" content="A basic web app from React, called awesome-react"><meta property="twitter:card" content="summary"><meta property="twitter:title" content="music-player"><meta property="twitter:description" content="A basic web app from React, called awesome-react"></head>
+<body class="layout-container" data-ice="rootContainer">
+
+<header>
+  <a href="./">Home</a>
+  
+  <a href="identifiers.html">Reference</a>
+  <a href="source.html">Source</a>
+  
+  <div class="search-box">
+  <span>
+    <img src="./image/search.png">
+    <span class="search-input-edge"></span><input class="search-input"><span class="search-input-edge"></span>
+  </span>
+    <ul class="search-result"></ul>
+  </div>
+<a style="position:relative; top:3px;" href="https://github.com/HoneyMorning/music-player"><img width="20px" src="./image/github.png"></a></header>
+
+<nav class="navigation" data-ice="nav"><div>
+  <ul>
+    
+  <li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-App">App</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#actions">actions</a><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-test">test</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#assets-lib">assets/lib</a><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/src/assets/lib/mplayer.js~MPlayer.html">MPlayer</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#components">components</a><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/src/components/Player.jsx~Player.html">Player</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/src/components/Progress.jsx~Progress.html">Progress</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-Header">Header</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-PlayerList">PlayerList</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#reducers">reducers</a><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-todos">todos</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-todoApp">todoApp</a></span></span></li>
+</ul>
+</div>
+</nav>
+
+<div class="content" data-ice="content"><div data-ice="index" class="github-markdown"><h1 id="music-player">music-player</h1><p><img src="./docs/README.png" alt="MPlayer"></p>
+<h2 id="installation-and-usage">Installation And Usage</h2><pre><code class="lang-bash"><code class="source-code prettyprint">git clone git@github.com:HoneyMorning/music-player.git
+
+cd music-player
+yarn install
+
+yarn start # start a dev server
+yarn start-browser # start a dev server and open default browser
+yarn build # build for production
+yarn build-analyse # build and generate a stats.json
+yarn dll # generate DllPlugin
+yarn test # run test
+yarn lint # run lint jsx
+yarn format # format code: .jsx?, .md, .s?css
+yarn server # test build folder, here is dist folder.
+yarn doc # run esdoc to generate docs.
+yarn server-doc # test esdoc generated folder, here is doc folder.</code>
+</code></pre>
+<h2 id="configuration">Configuration</h2><ul>
+<li>npm init &amp; gitignore</li>
+<li>File structure</li>
+<li>commitlint</li>
+<li>eslint</li>
+<li>format(prettier)</li>
+<li>webpack</li>
+<li>Test</li>
+<li>Router</li>
+<li>Common http request and interceptor</li>
+<li>webpack dll</li>
+<li>precommit format</li>
+</ul>
+<h2 id="commitlint">Commitlint</h2><blockquote>
+<p>The most common commit conventions follow this pattern:</p>
+</blockquote>
+<pre><code class="lang-md"><code class="source-code prettyprint">type: subject(lower-case)
+
+&lt;!-- add one space line --&gt;
+
+body?
+
+&lt;!-- add one space line --&gt;
+
+footer?</code>
+</code></pre>
+<p>type includes:</p>
+<pre><code class="lang-json"><code class="source-code prettyprint">[&quot;add&quot;, &quot;update&quot;, &quot;feat&quot;, &quot;fix&quot;, &quot;docs&quot;, &quot;style&quot;, &quot;refactor&quot;, &quot;test&quot;, &quot;rever&quot;]</code>
+</code></pre>
+<p>You could config vim as default editor for git commit, just do:</p>
+<pre><code class="lang-bash"><code class="source-code prettyprint">git config --global core.editor &quot;vim&quot;</code>
+</code></pre>
+<h2 id="code-styles">Code styles</h2><ul>
+<li><a href="https://github.com/airbnb/javascript/tree/master/react">React/JSX Style Guide</a></li>
+</ul>
+<h2 id="mit-license">MIT License</h2><p>Copyright (c) 2017 TaylorPzreal</p>
+</div>
+</div>
+
+<footer class="footer">
+  Generated by <a href="https://esdoc.org">ESDoc<span data-ice="esdocVersion">(1.0.4)</span><img src="./image/esdoc-logo-mini-black.png"></a>
+</footer>
+
+<script src="script/search_index.js"></script>
+<script src="script/search.js"></script>
+<script src="script/pretty-print.js"></script>
+<script src="script/inherited-summary.js"></script>
+<script src="script/test-summary.js"></script>
+<script src="script/inner-link.js"></script>
+<script src="script/patch-for-local.js"></script>
+</body>
+</html>

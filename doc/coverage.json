@@ -1,0 +1,94 @@
+{
+  "coverage": "3.44%",
+  "expectCount": 29,
+  "actualCount": 1,
+  "files": {
+    "src/App.jsx": {
+      "expectCount": 1,
+      "actualCount": 1,
+      "undocumentLines": []
+    },
+    "src/actions/index.js": {
+      "expectCount": 1,
+      "actualCount": 0,
+      "undocumentLines": [
+        1
+      ]
+    },
+    "src/assets/lib/mplayer.js": {
+      "expectCount": 8,
+      "actualCount": 0,
+      "undocumentLines": [
+        1,
+        2,
+        3,
+        5,
+        10,
+        13,
+        54,
+        58
+      ]
+    },
+    "src/components/Header.jsx": {
+      "expectCount": 1,
+      "actualCount": 0,
+      "undocumentLines": [
+        5
+      ]
+    },
+    "src/components/Player.jsx": {
+      "expectCount": 9,
+      "actualCount": 0,
+      "undocumentLines": [
+        9,
+        10,
+        12,
+        18,
+        19,
+        24,
+        28,
+        39,
+        55
+      ]
+    },
+    "src/components/PlayerList.jsx": {
+      "expectCount": 1,
+      "actualCount": 0,
+      "undocumentLines": [
+        3
+      ]
+    },
+    "src/components/Progress.jsx": {
+      "expectCount": 5,
+      "actualCount": 0,
+      "undocumentLines": [
+        4,
+        5,
+        7,
+        13,
+        20
+      ]
+    },
+    "src/index.jsx": {
+      "expectCount": 1,
+      "actualCount": 0,
+      "undocumentLines": [
+        9
+      ]
+    },
+    "src/reducers/index.js": {
+      "expectCount": 1,
+      "actualCount": 0,
+      "undocumentLines": [
+        4
+      ]
+    },
+    "src/reducers/testReducer.js": {
+      "expectCount": 1,
+      "actualCount": 0,
+      "undocumentLines": [
+        1
+      ]
+    }
+  }
+}

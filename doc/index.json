@@ -1,0 +1,1245 @@
+[
+  {
+    "__docId__": 1,
+    "kind": "external",
+    "name": "Infinity",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Infinity",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Infinity",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 2,
+    "kind": "external",
+    "name": "NaN",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/NaN",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~NaN",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 3,
+    "kind": "external",
+    "name": "undefined",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/undefined",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~undefined",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 4,
+    "kind": "external",
+    "name": "null",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/null",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~null",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 5,
+    "kind": "external",
+    "name": "Object",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Object",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 6,
+    "kind": "external",
+    "name": "object",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~object",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 7,
+    "kind": "external",
+    "name": "Function",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Function",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 8,
+    "kind": "external",
+    "name": "function",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~function",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 9,
+    "kind": "external",
+    "name": "Boolean",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Boolean",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Boolean",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 10,
+    "kind": "external",
+    "name": "boolean",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Boolean",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~boolean",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 11,
+    "kind": "external",
+    "name": "Symbol",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Symbol",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Symbol",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 12,
+    "kind": "external",
+    "name": "Error",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Error",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Error",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 13,
+    "kind": "external",
+    "name": "EvalError",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/EvalError",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~EvalError",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 14,
+    "kind": "external",
+    "name": "InternalError",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/InternalError",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~InternalError",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 15,
+    "kind": "external",
+    "name": "RangeError",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/RangeError",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~RangeError",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 16,
+    "kind": "external",
+    "name": "ReferenceError",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/ReferenceError",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~ReferenceError",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 17,
+    "kind": "external",
+    "name": "SyntaxError",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/SyntaxError",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~SyntaxError",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 18,
+    "kind": "external",
+    "name": "TypeError",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/TypeError",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~TypeError",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 19,
+    "kind": "external",
+    "name": "URIError",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/URIError",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~URIError",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 20,
+    "kind": "external",
+    "name": "Number",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Number",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 21,
+    "kind": "external",
+    "name": "number",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~number",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 22,
+    "kind": "external",
+    "name": "Date",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Date",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 23,
+    "kind": "external",
+    "name": "String",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~String",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 24,
+    "kind": "external",
+    "name": "string",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~string",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 25,
+    "kind": "external",
+    "name": "RegExp",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/RegExp",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~RegExp",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 26,
+    "kind": "external",
+    "name": "Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 27,
+    "kind": "external",
+    "name": "Int8Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Int8Array",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Int8Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 28,
+    "kind": "external",
+    "name": "Uint8Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Uint8Array",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Uint8Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 29,
+    "kind": "external",
+    "name": "Uint8ClampedArray",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Uint8ClampedArray",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Uint8ClampedArray",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 30,
+    "kind": "external",
+    "name": "Int16Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Int16Array",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Int16Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 31,
+    "kind": "external",
+    "name": "Uint16Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Uint16Array",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Uint16Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 32,
+    "kind": "external",
+    "name": "Int32Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Int32Array",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Int32Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 33,
+    "kind": "external",
+    "name": "Uint32Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Uint32Array",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Uint32Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 34,
+    "kind": "external",
+    "name": "Float32Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Float32Array",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Float32Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 35,
+    "kind": "external",
+    "name": "Float64Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Float64Array",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Float64Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 36,
+    "kind": "external",
+    "name": "Map",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Map",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Map",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 37,
+    "kind": "external",
+    "name": "Set",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Set",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Set",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 38,
+    "kind": "external",
+    "name": "WeakMap",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/WeakMap",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~WeakMap",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 39,
+    "kind": "external",
+    "name": "WeakSet",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/WeakSet",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~WeakSet",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 40,
+    "kind": "external",
+    "name": "ArrayBuffer",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/ArrayBuffer",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~ArrayBuffer",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 41,
+    "kind": "external",
+    "name": "DataView",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/DataView",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~DataView",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 42,
+    "kind": "external",
+    "name": "JSON",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/JSON",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~JSON",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 43,
+    "kind": "external",
+    "name": "Promise",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Promise",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 44,
+    "kind": "external",
+    "name": "Generator",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Generator",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Generator",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 45,
+    "kind": "external",
+    "name": "GeneratorFunction",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/GeneratorFunction",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~GeneratorFunction",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 46,
+    "kind": "external",
+    "name": "Reflect",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Reflect",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Reflect",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 47,
+    "kind": "external",
+    "name": "Proxy",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Proxy",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Proxy",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 48,
+    "kind": "file",
+    "name": "src/App.jsx",
+    "content": "import React from 'react';\nimport Header from './components/Header';\nimport Player from './components/Player';\n\n/**\n * App root component\n *\n * @return\n */\nfunction App() {\n  return (\n    <section style={{ backgroundColor: '#eee' }}>\n      <Header />\n      <div className=\"container\">\n        <Player />\n      </div>\n    </section>\n  );\n}\n\nexport default App;\n",
+    "static": true,
+    "longname": "/Users/taylorpzreal/Workspace/music-player/src/App.jsx",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 49,
+    "kind": "function",
+    "name": "App",
+    "memberof": "src/App.jsx",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/App.jsx~App",
+    "access": "public",
+    "export": true,
+    "importPath": "music-player/src/App.jsx",
+    "importStyle": "App",
+    "description": "App root component",
+    "lineNumber": 10,
+    "params": [],
+    "return": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 50,
+    "kind": "file",
+    "name": "src/App.test.jsx",
+    "content": "import React from 'react';\nimport { shallow } from 'enzyme';\nimport App from './App';\n\ndescribe('<App />', () => {\n  it('should render a header', () => {\n    const wrapper = shallow(<App />);\n    expect(wrapper.find('header')).toHaveLength(1);\n  });\n});\n",
+    "static": true,
+    "longname": "/Users/taylorpzreal/Workspace/music-player/src/App.test.jsx",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 51,
+    "kind": "file",
+    "name": "src/actions/index.js",
+    "content": "const test = { type: 'DEFAULT_ACTION' };\n\nexport default test;\n",
+    "static": true,
+    "longname": "/Users/taylorpzreal/Workspace/music-player/src/actions/index.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 52,
+    "kind": "variable",
+    "name": "test",
+    "memberof": "src/actions/index.js",
+    "static": true,
+    "longname": "src/actions/index.js~test",
+    "access": "public",
+    "export": true,
+    "importPath": "music-player/src/actions/index.js",
+    "importStyle": "test",
+    "description": null,
+    "lineNumber": 1,
+    "undocument": true,
+    "type": {
+      "types": [
+        "{\"type\": string}"
+      ]
+    }
+  },
+  {
+    "__docId__": 53,
+    "kind": "file",
+    "name": "src/assets/lib/mplayer.js",
+    "content": "class MPlayer {\n  constructor(id) {\n    this.audio = document.getElementById(id);\n    this.initEventListener();\n    this.progress = {\n      currentTime: 0,\n      totalTime: 0,\n      percent: 0,\n    };\n    this.playing = false;\n  }\n\n  initEventListener() {\n    const requestAnimationFrame =\n      window.requestAnimationFrame ||\n      window.mozRequestAnimationFrame ||\n      window.webkitRequestAnimationFrame ||\n      window.msRequestAnimationFrame;\n    const cancelAnimationFrame = window.cancelAnimationFrame || window.mozCancelAnimationFrame;\n    const self = this;\n    let progressID = null;\n\n    function playingProgress() {\n      console.warn('playing ... ');\n      self.progress.currentTime = self.audio.currentTime;\n\n      if (self.progress.currentTime < self.progress.totalTime) {\n        progressID = requestAnimationFrame(playingProgress);\n      }\n    }\n\n    function loadedmetadata() {\n      console.warn('Loaded success');\n      self.progress.totalTime = this.duration;\n    }\n\n    function playing() {\n      console.warn('Playing');\n      self.playing = true;\n      progressID = requestAnimationFrame(playingProgress);\n    }\n\n    function pause() {\n      console.warn('Paused');\n      self.playing = false;\n      cancelAnimationFrame(progressID);\n    }\n\n    this.audio.addEventListener('loadedmetadata', loadedmetadata, false);\n    this.audio.addEventListener('playing', playing, false);\n    this.audio.addEventListener('pause', pause, false);\n  }\n\n  play() {\n    this.audio.play();\n  }\n\n  pause() {\n    this.audio.pause();\n  }\n}\n\nexport default MPlayer;\n",
+    "static": true,
+    "longname": "/Users/taylorpzreal/Workspace/music-player/src/assets/lib/mplayer.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 54,
+    "kind": "class",
+    "name": "MPlayer",
+    "memberof": "src/assets/lib/mplayer.js",
+    "static": true,
+    "longname": "src/assets/lib/mplayer.js~MPlayer",
+    "access": "public",
+    "export": true,
+    "importPath": "music-player/src/assets/lib/mplayer.js",
+    "importStyle": "MPlayer",
+    "description": null,
+    "lineNumber": 1,
+    "undocument": true,
+    "interface": false
+  },
+  {
+    "__docId__": 55,
+    "kind": "constructor",
+    "name": "constructor",
+    "memberof": "src/assets/lib/mplayer.js~MPlayer",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "src/assets/lib/mplayer.js~MPlayer#constructor",
+    "access": "public",
+    "description": null,
+    "lineNumber": 2,
+    "undocument": true
+  },
+  {
+    "__docId__": 56,
+    "kind": "member",
+    "name": "audio",
+    "memberof": "src/assets/lib/mplayer.js~MPlayer",
+    "static": false,
+    "longname": "src/assets/lib/mplayer.js~MPlayer#audio",
+    "access": "public",
+    "description": null,
+    "lineNumber": 3,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 57,
+    "kind": "member",
+    "name": "progress",
+    "memberof": "src/assets/lib/mplayer.js~MPlayer",
+    "static": false,
+    "longname": "src/assets/lib/mplayer.js~MPlayer#progress",
+    "access": "public",
+    "description": null,
+    "lineNumber": 5,
+    "undocument": true,
+    "type": {
+      "types": [
+        "{\"currentTime\": *, \"totalTime\": *, \"percent\": *}"
+      ]
+    }
+  },
+  {
+    "__docId__": 58,
+    "kind": "member",
+    "name": "playing",
+    "memberof": "src/assets/lib/mplayer.js~MPlayer",
+    "static": false,
+    "longname": "src/assets/lib/mplayer.js~MPlayer#playing",
+    "access": "public",
+    "description": null,
+    "lineNumber": 10,
+    "undocument": true,
+    "type": {
+      "types": [
+        "boolean"
+      ]
+    }
+  },
+  {
+    "__docId__": 59,
+    "kind": "method",
+    "name": "initEventListener",
+    "memberof": "src/assets/lib/mplayer.js~MPlayer",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "src/assets/lib/mplayer.js~MPlayer#initEventListener",
+    "access": "public",
+    "description": null,
+    "lineNumber": 13,
+    "undocument": true,
+    "params": [],
+    "return": null
+  },
+  {
+    "__docId__": 60,
+    "kind": "method",
+    "name": "play",
+    "memberof": "src/assets/lib/mplayer.js~MPlayer",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "src/assets/lib/mplayer.js~MPlayer#play",
+    "access": "public",
+    "description": null,
+    "lineNumber": 54,
+    "undocument": true,
+    "params": [],
+    "return": null
+  },
+  {
+    "__docId__": 61,
+    "kind": "method",
+    "name": "pause",
+    "memberof": "src/assets/lib/mplayer.js~MPlayer",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "src/assets/lib/mplayer.js~MPlayer#pause",
+    "access": "public",
+    "description": null,
+    "lineNumber": 58,
+    "undocument": true,
+    "params": [],
+    "return": null
+  },
+  {
+    "__docId__": 62,
+    "kind": "file",
+    "name": "src/components/Header.jsx",
+    "content": "import React from 'react';\nimport './header.scss';\nimport logo from '../assets/images/avator.jpeg';\n\nfunction Header() {\n  return (\n    <nav className=\"navbar navbar-light bg-light header-shadow\">\n      <a className=\"navbar-brand\" href=\"/\">\n        <img src={logo} width=\"30\" height=\"30\" className=\"d-inline-block align-top\" alt=\"Logo\" />\n        Music player\n      </a>\n    </nav>\n  );\n}\n\nexport default Header;\n",
+    "static": true,
+    "longname": "/Users/taylorpzreal/Workspace/music-player/src/components/Header.jsx",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 63,
+    "kind": "function",
+    "name": "Header",
+    "memberof": "src/components/Header.jsx",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/components/Header.jsx~Header",
+    "access": "public",
+    "export": true,
+    "importPath": "music-player/src/components/Header.jsx",
+    "importStyle": "Header",
+    "description": null,
+    "lineNumber": 5,
+    "undocument": true,
+    "params": [],
+    "return": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 64,
+    "kind": "file",
+    "name": "src/components/Player.jsx",
+    "content": "import 'font-awesome/css/font-awesome.min.css';\nimport React from 'react';\nimport MPlayer from '../assets/lib/mplayer';\nimport Progress from './Progress';\nimport music from '../assets/audio/Hymn-For-The-Weekend.mp3';\nimport logo from '../assets/images/avator.jpeg';\nimport PlayerList from './PlayerList';\n\nclass Player extends React.Component {\n  constructor(props) {\n    super(props);\n    this.state = {\n      duration: 0,\n      current: 0,\n      playing: false,\n    };\n\n    this.audio = null;\n    this.progressID = null;\n    this.handlePlay = this.handlePlay.bind(this);\n    this.playingProgress = this.playingProgress.bind(this);\n  }\n\n  componentDidMount() {\n    this.audio = new MPlayer('audio');\n  }\n\n  playingProgress() {\n    this.setState({\n      duration: this.audio.progress.totalTime,\n      current: this.audio.progress.currentTime,\n    });\n\n    if (this.audio.progress.currentTime < this.audio.progress.totalTime) {\n      this.progressID = window.requestAnimationFrame(this.playingProgress);\n    }\n  }\n\n  handlePlay() {\n    const { playing } = this.state;\n\n    if (playing) { // stop\n      this.audio.pause();\n      window.cancelAnimationFrame(this.progressID);\n    } else { // play\n      this.audio.play();\n      this.progressID = window.requestAnimationFrame(this.playingProgress);\n    }\n\n    this.setState({\n      playing: !playing,\n    });\n  }\n\n  render() {\n    return (\n      <section style={{ marginTop: '40px' }}>\n        <div className=\"row\">\n          <div className=\"col-lg-4 col-md-12\">\n            <div className=\"card\">\n              <img src={logo} style={{ height: '240px' }} alt=\"Logo\" />\n              <div className=\"card-body\">\n                <h5 className=\"card-title\">Music name</h5>\n                <audio id=\"audio\">\n                  <source src={music} />\n                  <track kind=\"captions\" />\n                </audio>\n                <button className=\"btn btn-dark\" onClick={this.handlePlay}>{this.state.playing ? <i className=\"fa fa-stop\" /> : <i className=\"fa fa-play\" />}</button>\n              </div>\n            </div>\n          </div>\n\n          <PlayerList />\n        </div>\n\n        <Progress duration={this.state.duration} current={this.state.current} />\n      </section>\n    );\n  }\n}\n\nexport default Player;\n",
+    "static": true,
+    "longname": "/Users/taylorpzreal/Workspace/music-player/src/components/Player.jsx",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 65,
+    "kind": "class",
+    "name": "Player",
+    "memberof": "src/components/Player.jsx",
+    "static": true,
+    "longname": "src/components/Player.jsx~Player",
+    "access": "public",
+    "export": true,
+    "importPath": "music-player/src/components/Player.jsx",
+    "importStyle": "Player",
+    "description": null,
+    "lineNumber": 9,
+    "undocument": true,
+    "interface": false,
+    "extends": [
+      "react~React.Component"
+    ]
+  },
+  {
+    "__docId__": 66,
+    "kind": "constructor",
+    "name": "constructor",
+    "memberof": "src/components/Player.jsx~Player",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "src/components/Player.jsx~Player#constructor",
+    "access": "public",
+    "description": null,
+    "lineNumber": 10,
+    "undocument": true
+  },
+  {
+    "__docId__": 67,
+    "kind": "member",
+    "name": "state",
+    "memberof": "src/components/Player.jsx~Player",
+    "static": false,
+    "longname": "src/components/Player.jsx~Player#state",
+    "access": "public",
+    "description": null,
+    "lineNumber": 12,
+    "undocument": true,
+    "type": {
+      "types": [
+        "{\"duration\": *, \"current\": *, \"playing\": *}"
+      ]
+    }
+  },
+  {
+    "__docId__": 68,
+    "kind": "member",
+    "name": "audio",
+    "memberof": "src/components/Player.jsx~Player",
+    "static": false,
+    "longname": "src/components/Player.jsx~Player#audio",
+    "access": "public",
+    "description": null,
+    "lineNumber": 18,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 69,
+    "kind": "member",
+    "name": "progressID",
+    "memberof": "src/components/Player.jsx~Player",
+    "static": false,
+    "longname": "src/components/Player.jsx~Player#progressID",
+    "access": "public",
+    "description": null,
+    "lineNumber": 19,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 72,
+    "kind": "method",
+    "name": "componentDidMount",
+    "memberof": "src/components/Player.jsx~Player",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "src/components/Player.jsx~Player#componentDidMount",
+    "access": "public",
+    "description": null,
+    "lineNumber": 24,
+    "undocument": true,
+    "params": [],
+    "return": null
+  },
+  {
+    "__docId__": 74,
+    "kind": "method",
+    "name": "playingProgress",
+    "memberof": "src/components/Player.jsx~Player",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "src/components/Player.jsx~Player#playingProgress",
+    "access": "public",
+    "description": null,
+    "lineNumber": 28,
+    "undocument": true,
+    "params": [],
+    "return": null
+  },
+  {
+    "__docId__": 76,
+    "kind": "method",
+    "name": "handlePlay",
+    "memberof": "src/components/Player.jsx~Player",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "src/components/Player.jsx~Player#handlePlay",
+    "access": "public",
+    "description": null,
+    "lineNumber": 39,
+    "undocument": true,
+    "params": [],
+    "return": null
+  },
+  {
+    "__docId__": 78,
+    "kind": "method",
+    "name": "render",
+    "memberof": "src/components/Player.jsx~Player",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "src/components/Player.jsx~Player#render",
+    "access": "public",
+    "description": null,
+    "lineNumber": 55,
+    "undocument": true,
+    "params": [],
+    "return": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 79,
+    "kind": "file",
+    "name": "src/components/PlayerList.jsx",
+    "content": "import React from 'react';\n\nfunction PlayerList() {\n  return (\n    <div className=\"col-lg-8 col-md-12\">\n      <main>\n        <div className=\"card\">\n          <div className=\"card-header\">Music List</div>\n          <ul className=\"list-group list-group-flush\">\n            <li className=\"list-group-item\">黄昏</li>\n            <li className=\"list-group-item\">明天，你好</li>\n            <li className=\"list-group-item\">海阔天空</li>\n          </ul>\n        </div>\n      </main>\n    </div>\n  );\n}\n\nexport default PlayerList;\n",
+    "static": true,
+    "longname": "/Users/taylorpzreal/Workspace/music-player/src/components/PlayerList.jsx",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 80,
+    "kind": "function",
+    "name": "PlayerList",
+    "memberof": "src/components/PlayerList.jsx",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/components/PlayerList.jsx~PlayerList",
+    "access": "public",
+    "export": true,
+    "importPath": "music-player/src/components/PlayerList.jsx",
+    "importStyle": "PlayerList",
+    "description": null,
+    "lineNumber": 3,
+    "undocument": true,
+    "params": [],
+    "return": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 81,
+    "kind": "file",
+    "name": "src/components/Progress.jsx",
+    "content": "import React from 'react';\nimport PropTypes from 'prop-types';\n\nclass Progress extends React.Component {\n  constructor(props) {\n    super(props);\n    this.state = {\n      duration: props.duration,\n      current: props.current,\n    };\n  }\n\n  componentWillReceiveProps(nextProps) {\n    this.setState({\n      duration: nextProps.duration,\n      current: nextProps.current,\n    });\n  }\n\n  render() {\n    return (\n      <div className=\"progress\" style={{ marginTop: '20px', justifyContent: 'space-between' }} tabIndex={0} role=\"button\" >\n        <div className=\"progress-bar progress-bar-striped progress-bar-animated\" role=\"progressbar\" style={{ width: `${(this.state.current / this.state.duration) * 100}%`, textAlign: 'right' }} aria-valuenow=\"10\" aria-valuemin=\"0\" aria-valuemax=\"100\" />\n        <span>{`${parseInt(this.state.current, 10)} / ${parseInt(this.state.duration, 10)} s`}</span>\n      </div>\n    );\n  }\n}\n\nProgress.propTypes = {\n  duration: PropTypes.number.isRequired,\n  current: PropTypes.number.isRequired,\n};\n\nexport default Progress;\n",
+    "static": true,
+    "longname": "/Users/taylorpzreal/Workspace/music-player/src/components/Progress.jsx",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 82,
+    "kind": "class",
+    "name": "Progress",
+    "memberof": "src/components/Progress.jsx",
+    "static": true,
+    "longname": "src/components/Progress.jsx~Progress",
+    "access": "public",
+    "export": true,
+    "importPath": "music-player/src/components/Progress.jsx",
+    "importStyle": "Progress",
+    "description": null,
+    "lineNumber": 4,
+    "undocument": true,
+    "interface": false,
+    "extends": [
+      "react~React.Component"
+    ]
+  },
+  {
+    "__docId__": 83,
+    "kind": "constructor",
+    "name": "constructor",
+    "memberof": "src/components/Progress.jsx~Progress",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "src/components/Progress.jsx~Progress#constructor",
+    "access": "public",
+    "description": null,
+    "lineNumber": 5,
+    "undocument": true
+  },
+  {
+    "__docId__": 84,
+    "kind": "member",
+    "name": "state",
+    "memberof": "src/components/Progress.jsx~Progress",
+    "static": false,
+    "longname": "src/components/Progress.jsx~Progress#state",
+    "access": "public",
+    "description": null,
+    "lineNumber": 7,
+    "undocument": true,
+    "type": {
+      "types": [
+        "{\"duration\": *, \"current\": *}"
+      ]
+    }
+  },
+  {
+    "__docId__": 85,
+    "kind": "method",
+    "name": "componentWillReceiveProps",
+    "memberof": "src/components/Progress.jsx~Progress",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "src/components/Progress.jsx~Progress#componentWillReceiveProps",
+    "access": "public",
+    "description": null,
+    "lineNumber": 13,
+    "undocument": true,
+    "params": [
+      {
+        "name": "nextProps",
+        "types": [
+          "*"
+        ]
+      }
+    ],
+    "return": null
+  },
+  {
+    "__docId__": 86,
+    "kind": "method",
+    "name": "render",
+    "memberof": "src/components/Progress.jsx~Progress",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "src/components/Progress.jsx~Progress#render",
+    "access": "public",
+    "description": null,
+    "lineNumber": 20,
+    "undocument": true,
+    "params": [],
+    "return": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 87,
+    "kind": "file",
+    "name": "src/index.jsx",
+    "content": "import React from 'react';\nimport { render } from 'react-dom';\nimport { Provider } from 'react-redux';\nimport { createStore } from 'redux';\nimport 'bootstrap/dist/css/bootstrap.min.css';\nimport rootReducer from './reducers';\nimport App from './App';\n\nconst store = createStore(rootReducer);\n\nrender(\n  <Provider store={store}>\n    <App />\n  </Provider>,\n  document.getElementById('app'),\n);\n",
+    "static": true,
+    "longname": "/Users/taylorpzreal/Workspace/music-player/src/index.jsx",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 88,
+    "kind": "variable",
+    "name": "store",
+    "memberof": "src/index.jsx",
+    "static": true,
+    "longname": "src/index.jsx~store",
+    "access": "public",
+    "export": false,
+    "importPath": "music-player/src/index.jsx",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 9,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 89,
+    "kind": "file",
+    "name": "src/reducers/index.js",
+    "content": "import { combineReducers } from 'redux';\nimport test from './testReducer';\n\nconst todoApp = combineReducers({\n  test,\n});\n\nexport default todoApp;\n",
+    "static": true,
+    "longname": "/Users/taylorpzreal/Workspace/music-player/src/reducers/index.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 90,
+    "kind": "variable",
+    "name": "todoApp",
+    "memberof": "src/reducers/index.js",
+    "static": true,
+    "longname": "src/reducers/index.js~todoApp",
+    "access": "public",
+    "export": true,
+    "importPath": "music-player/src/reducers/index.js",
+    "importStyle": "todoApp",
+    "description": null,
+    "lineNumber": 4,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 91,
+    "kind": "file",
+    "name": "src/reducers/testReducer.js",
+    "content": "const todos = (state = [], action) => {\n  switch (action.type) {\n    default:\n      return state;\n  }\n};\n\nexport default todos;\n",
+    "static": true,
+    "longname": "/Users/taylorpzreal/Workspace/music-player/src/reducers/testReducer.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 92,
+    "kind": "function",
+    "name": "todos",
+    "memberof": "src/reducers/testReducer.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/reducers/testReducer.js~todos",
+    "access": "public",
+    "export": true,
+    "importPath": "music-player/src/reducers/testReducer.js",
+    "importStyle": "todos",
+    "description": null,
+    "lineNumber": 1,
+    "undocument": true,
+    "params": [
+      {
+        "name": "state",
+        "optional": true,
+        "types": [
+          "*[]"
+        ],
+        "defaultRaw": [],
+        "defaultValue": "[]"
+      },
+      {
+        "name": "action",
+        "types": [
+          "*"
+        ]
+      }
+    ],
+    "return": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "kind": "index",
+    "content": "# music-player\n\n![MPlayer](./docs/README.png)\n\n## Installation And Usage\n\n```bash\ngit clone git@github.com:HoneyMorning/music-player.git\n\ncd music-player\nyarn install\n\nyarn start # start a dev server\nyarn start-browser # start a dev server and open default browser\nyarn build # build for production\nyarn build-analyse # build and generate a stats.json\nyarn dll # generate DllPlugin\nyarn test # run test\nyarn lint # run lint jsx\nyarn format # format code: .jsx?, .md, .s?css\nyarn server # test build folder, here is dist folder.\nyarn doc # run esdoc to generate docs.\nyarn server-doc # test esdoc generated folder, here is doc folder.\n```\n\n## Configuration\n\n* npm init & gitignore\n* File structure\n* commitlint\n* eslint\n* format(prettier)\n* webpack\n* Test\n* Router\n* Common http request and interceptor\n* webpack dll\n* precommit format\n\n## Commitlint\n\n> The most common commit conventions follow this pattern:\n\n```md\ntype: subject(lower-case)\n\n<!-- add one space line -->\n\nbody?\n\n<!-- add one space line -->\n\nfooter?\n```\n\ntype includes:\n\n```json\n[\"add\", \"update\", \"feat\", \"fix\", \"docs\", \"style\", \"refactor\", \"test\", \"rever\"]\n```\n\nYou could config vim as default editor for git commit, just do:\n\n```bash\ngit config --global core.editor \"vim\"\n```\n\n## Code styles\n\n* [React/JSX Style Guide](https://github.com/airbnb/javascript/tree/master/react)\n\n## MIT License\n\nCopyright (c) 2017 TaylorPzreal\n",
+    "longname": "/Users/taylorpzreal/Workspace/music-player/README.md",
+    "name": "./README.md",
+    "static": true,
+    "access": "public"
+  },
+  {
+    "kind": "packageJSON",
+    "content": "{\n  \"name\": \"music-player\",\n  \"version\": \"0.1.0\",\n  \"description\": \"A basic web app from React, called awesome-react\",\n  \"scripts\": {\n    \"start\": \"webpack-dev-server --config config/webpack.dev.js --hot\",\n    \"start-browser\": \"yarn run start --open\",\n    \"build\": \"webpack --config config/webpack.prod.js --progress --profile\",\n    \"build-analyse\": \"yarn run build --json > docs/stats.json\",\n    \"dll\": \"webpack --config config/webpack.dll.js\",\n    \"test\": \"jest --env=jsdom\",\n    \"lint\": \"eslint --ext .jsx --ext .js src/\",\n    \"format\": \"npm-run-all format-*\",\n    \"format-jsx\": \"prettier src/**/*.js src/**/*.jsx --trailing-comma=es5 --write && yarn run lint --fix\",\n    \"format-style\": \"prettier src/**/*.css src/**/*.scss --write\",\n    \"format-md\": \"prettier README.md src/**/*.md docs/**/*.md --write\",\n    \"server\": \"http-server ./dist/ -p 9000\",\n    \"commitmsg\": \"commitlint -e $GIT_PARAMS\",\n    \"precommit\": \"lint-staged\",\n    \"doc\": \"esdoc\",\n    \"server-doc\": \"http-server ./doc -p 3000\"\n  },\n  \"keywords\": [\n    \"react\",\n    \"awesome-react\",\n    \"react-app\",\n    \"react-product\"\n  ],\n  \"author\": \"TaylorPzreal <taylorpzreal@gmail.com>\",\n  \"license\": \"MIT\",\n  \"dependencies\": {\n    \"bootstrap\": \"^4.0.0\",\n    \"font-awesome\": \"^4.7.0\",\n    \"prop-types\": \"^15.6.0\",\n    \"react\": \"^16.2.0\",\n    \"react-dom\": \"^16.2.0\",\n    \"react-loadable\": \"^5.3.1\",\n    \"react-redux\": \"^5.0.6\",\n    \"react-router-dom\": \"^4.2.2\",\n    \"redux\": \"^3.7.2\",\n    \"redux-devtools\": \"^3.4.1\"\n  },\n  \"devDependencies\": {\n    \"@commitlint/cli\": \"^6.0.2\",\n    \"@commitlint/config-conventional\": \"^6.0.2\",\n    \"autoprefixer\": \"^7.2.5\",\n    \"babel-cli\": \"^6.26.0\",\n    \"babel-core\": \"^6.26.0\",\n    \"babel-eslint\": \"^8.2.1\",\n    \"babel-jest\": \"^22.0.6\",\n    \"babel-loader\": \"^7.1.2\",\n    \"babel-plugin-syntax-dynamic-import\": \"^6.18.0\",\n    \"babel-plugin-transform-object-rest-spread\": \"^6.26.0\",\n    \"babel-preset-env\": \"^1.6.1\",\n    \"babel-preset-react\": \"^6.24.1\",\n    \"clean-webpack-plugin\": \"^0.1.17\",\n    \"copy-webpack-plugin\": \"^4.3.1\",\n    \"css-loader\": \"^0.28.8\",\n    \"enzyme\": \"^3.3.0\",\n    \"enzyme-adapter-react-16\": \"^1.1.1\",\n    \"esdoc\": \"^1.0.4\",\n    \"esdoc-jsx-plugin\": \"^1.0.0\",\n    \"esdoc-react-plugin\": \"^1.0.1\",\n    \"esdoc-standard-plugin\": \"^1.0.0\",\n    \"eslint\": \"^4.15.0\",\n    \"eslint-config-airbnb\": \"^16.1.0\",\n    \"eslint-loader\": \"^1.9.0\",\n    \"eslint-plugin-import\": \"^2.8.0\",\n    \"eslint-plugin-jest\": \"^21.6.1\",\n    \"eslint-plugin-jsx-a11y\": \"^6.0.3\",\n    \"eslint-plugin-react\": \"^7.5.1\",\n    \"extract-text-webpack-plugin\": \"^3.0.2\",\n    \"file-loader\": \"^1.1.6\",\n    \"html-webpack-plugin\": \"^2.30.1\",\n    \"http-server\": \"^0.11.1\",\n    \"husky\": \"^0.14.3\",\n    \"interpolate-webpack-plugin\": \"^1.0.2\",\n    \"jest\": \"^22.0.6\",\n    \"lint-staged\": \"^6.0.0\",\n    \"node-sass\": \"^4.7.2\",\n    \"npm-run-all\": \"^4.1.2\",\n    \"postcss-flexbugs-fixes\": \"^3.2.0\",\n    \"postcss-loader\": \"^2.0.10\",\n    \"prettier\": \"^1.10.2\",\n    \"react-test-renderer\": \"^16.2.0\",\n    \"sass-loader\": \"^6.0.6\",\n    \"style-loader\": \"^0.19.1\",\n    \"uglifyjs-webpack-plugin\": \"^1.1.6\",\n    \"url-loader\": \"^0.6.2\",\n    \"webpack\": \"^3.10.0\",\n    \"webpack-dev-server\": \"^2.10.1\",\n    \"webpack-manifest-plugin\": \"^1.3.2\",\n    \"webpack-merge\": \"^4.1.1\"\n  },\n  \"jest\": {\n    \"collectCoverageFrom\": [\n      \"src/**/*.{js,jsx}\"\n    ],\n    \"testMatch\": [\n      \"<rootDir>/src/**/__tests__/**/*.{js,jsx}\",\n      \"<rootDir>/src/**/?(*.)(spec|test).{js,jsx}\"\n    ],\n    \"testEnvironment\": \"node\",\n    \"transform\": {\n      \"^.+\\\\.jsx?$\": \"babel-jest\",\n      \"^.+\\\\.s?css$\": \"<rootDir>/config/jest/cssTransform.js\",\n      \"^(?!.*\\\\.(js|jsx|css|scss|json)$)\": \"<rootDir>/config/jest/fileTransform.js\"\n    },\n    \"testPathIgnorePatterns\": [\n      \"<rootDir>/node_modules/\",\n      \"<rootDir>/config/\",\n      \"<rootDir>/src/assets/\"\n    ],\n    \"moduleFileExtensions\": [\n      \"js\",\n      \"json\",\n      \"jsx\"\n    ],\n    \"setupTestFrameworkScriptFile\": \"<rootDir>/config/jest/adapter.js\"\n  },\n  \"lint-staged\": {\n    \"src/**/*.{js,jsx}\": [\n      \"format-jsx\",\n      \"git add\"\n    ],\n    \"src/**/*.{css,scss}\": [\n      \"format-style\",\n      \"git add\"\n    ],\n    \"*.md\": [\n      \"format-md\",\n      \"git add\"\n    ]\n  },\n  \"main\": \"index.js\",\n  \"directories\": {\n    \"doc\": \"docs\"\n  },\n  \"repository\": {\n    \"type\": \"git\",\n    \"url\": \"git+https://github.com/HoneyMorning/music-player.git\"\n  },\n  \"bugs\": {\n    \"url\": \"https://github.com/HoneyMorning/music-player/issues\"\n  },\n  \"homepage\": \"https://github.com/HoneyMorning/music-player#readme\"\n}\n",
+    "longname": "/Users/taylorpzreal/Workspace/music-player/package.json",
+    "name": "package.json",
+    "static": true,
+    "access": "public"
+  }
+]
