@@ -1,4 +1,5 @@
 import React from 'react';
+import MPlayer from '../assets/lib/mplayer';
 import Progress from './Progress';
 import music from '../assets/audio/Hymn-For-The-Weekend.mp3';
 
@@ -16,41 +17,12 @@ class Player extends React.Component {
   }
 
   initPlayer() {
-    const audio = document.getElementById('audio');
-    const self = this;
-
-    function loadedMetadata() {
-      const { duration } = audio;
-
-      self.setState({
-        duration,
-      });
-    }
-
-    function playAnimation() {
-      const total = self.state.duration;
-      const current = self.state.currentProgress;
-
-      console.warn(current);
-      console.warn(total);
-
-      // while (current < (total * 1000)) {
-      //   current += 1000;
-      //   self.setState({
-      //     currentProgress: Math.floor(current / 1000),
-      //   });
-      //   playAnimation();
-      //   console.warn('1');
-      // }
-    }
-
-    function playing(e) {
-      console.warn(e.timeStamp);
-      playAnimation();
-    }
-
-    audio.addEventListener('playing', playing, false);
-    audio.addEventListener('loadedmetadata', loadedMetadata, false);
+    const audio = new MPlayer('audio');
+    console.warn(this.state.duration);
+    audio.progressListener((progress) => {
+      console.warn('=================');
+      console.warn(progress);
+    });
   }
 
   render() {
