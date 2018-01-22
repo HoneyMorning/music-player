@@ -1,10 +1,8 @@
 import 'font-awesome/css/font-awesome.min.css';
 import React from 'react';
 import MPlayer from '../assets/lib/mplayer';
-import Progress from './Progress';
-import music from '../assets/audio/Hymn-For-The-Weekend.mp3';
-import logo from '../assets/images/avator.jpeg';
 import PlayerList from './PlayerList';
+import PlayerCard from './PlayerCard';
 
 class Player extends React.Component {
   constructor(props) {
@@ -19,6 +17,11 @@ class Player extends React.Component {
     this.progressID = null;
     this.handlePlay = this.handlePlay.bind(this);
     this.playingProgress = this.playingProgress.bind(this);
+    this.cardItem = {
+      cover: 'src/assets/images/avator.jpeg',
+      name: 'Music name',
+      src: 'src/assets/audio/Hymn-For-The-Weekend.mp3',
+    };
   }
 
   componentDidMount() {
@@ -39,10 +42,12 @@ class Player extends React.Component {
   handlePlay() {
     const { playing } = this.state;
 
-    if (playing) { // stop
+    if (playing) {
+      // stop
       this.audio.pause();
       window.cancelAnimationFrame(this.progressID);
-    } else { // play
+    } else {
+      // play
       this.audio.play();
       this.progressID = window.requestAnimationFrame(this.playingProgress);
     }
@@ -54,26 +59,22 @@ class Player extends React.Component {
 
   render() {
     return (
-      <section style={{ marginTop: '40px' }}>
+      <section style={{ paddingTop: '40px', paddingBottom: '40px' }}>
         <div className="row">
           <div className="col-lg-4 col-md-12">
-            <div className="card">
-              <img src={logo} style={{ height: '240px' }} alt="Logo" />
-              <div className="card-body">
-                <h5 className="card-title">Music name</h5>
-                <audio id="audio">
-                  <source src={music} />
-                  <track kind="captions" />
-                </audio>
-                <button className="btn btn-dark" onClick={this.handlePlay}>{this.state.playing ? <i className="fa fa-stop" /> : <i className="fa fa-play" />}</button>
-              </div>
-            </div>
+            <PlayerCard
+              cardItem={this.cardItem}
+              handlePlay={this.handlePlay}
+              playing={this.state.playing}
+              duration={this.state.duration}
+              current={this.state.current}
+            />
           </div>
 
-          <PlayerList />
+          <div className="col-lg-8 col-md-12">
+            <PlayerList />
+          </div>
         </div>
-
-        <Progress duration={this.state.duration} current={this.state.current} />
       </section>
     );
   }
