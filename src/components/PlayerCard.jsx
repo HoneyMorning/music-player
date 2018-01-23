@@ -37,8 +37,4 @@ PlayerCard.propTypes = {
   current: PropTypes.number.isRequired,
 };
 
-PlayerCard.defautProps = {
-  cardItem: 'a',
-};
-
 export default PlayerCard;
