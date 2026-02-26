@@ -1,10 +1,9 @@
-import React from 'react';
 import PropTypes from 'prop-types';
 import Progress from './Progress';
 
-function PlayerCard(props) {
-  const { cardItem } = props;
-
+function PlayerCard({
+  cardItem, handlePlay, playing, duration, current,
+}) {
   return (
     <div className="card">
       <img src={cardItem.cover} style={{ height: '240px' }} alt="Logo" />
@@ -14,12 +13,12 @@ function PlayerCard(props) {
           <source src={cardItem.src} />
           <track kind="captions" />
         </audio>
-        <button className="btn btn-dark" onClick={props.handlePlay}>
-          {props.playing ? <i className="fa fa-stop" /> : <i className="fa fa-play" />}
+        <button type="button" className="btn btn-dark" onClick={handlePlay}>
+          {playing ? <i className="fa fa-stop" /> : <i className="fa fa-play" />}
         </button>
       </div>
       <div className="col-12">
-        <Progress duration={props.duration} current={props.current} />
+        <Progress duration={duration} current={current} />
       </div>
     </div>
   );

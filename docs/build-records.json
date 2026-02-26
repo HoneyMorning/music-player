@@ -1,6 +1,148 @@
 {
+  "HtmlWebpackCompiler": [
+    {
+      "chunks": {
+        "byName": {
+          "HtmlWebpackPlugin_0-/workspace/node_modules/html-webpack-plugin/lib/loader.js!/workspace/src/index.html": 312
+        },
+        "bySource": {
+          "0 HtmlWebpackPlugin_0-/workspace/node_modules/html-webpack-plugin/lib/loader.js!/workspace/src/index.html": 312
+        },
+        "usedIds": [
+          312
+        ]
+      },
+      "modules": {
+        "byIdentifier": {
+          "./node_modules/html-webpack-plugin/lib/loader.js!./src/index.html": 65,
+          "asset/resource|data:text/javascript,__webpack_public_path__ = __webpack_base_uri__ = htmlWebpackPluginPublicPath;": 832
+        },
+        "usedIds": [
+          65,
+          832
+        ]
+      }
+    }
+  ],
+  "chunks": {
+    "byBlocks": {},
+    "byName": {
+      "app": 0
+    },
+    "bySource": {
+      "0 app": 0
+    },
+    "usedIds": [
+      0
+    ]
+  },
+  "extract-text-webpack-plugin node_modules/extract-text-webpack-plugin/dist node_modules/css-loader/index.js??ref--0-oneOf-2-2!node_modules/postcss-loader/lib/index.js??postcss!node_modules/bootstrap/dist/css/bootstrap.min.css": [
+    {
+      "chunks": {
+        "byBlocks": {},
+        "byName": {},
+        "usedIds": {
+          "0": 0
+        }
+      },
+      "modules": {
+        "byIdentifier": {
+          "node_modules/css-loader/index.js?{\"importLoaders\":1,\"minimize\":true,\"sourceMap\":false,\"localIdentName\":\"[name]_[local]_[hash:base64:5]\"}!node_modules/postcss-loader/lib/index.js?{\"ident\":\"postcss\",\"sourceMap\":false}!node_modules/bootstrap/dist/css/bootstrap.min.css": "c7y6",
+          "node_modules/css-loader/lib/css-base.js": "FZ+f"
+        },
+        "usedIds": {
+          "FZ+f": "FZ+f",
+          "c7y6": "c7y6"
+        }
+      }
+    }
+  ],
+  "extract-text-webpack-plugin node_modules/extract-text-webpack-plugin/dist node_modules/css-loader/index.js??ref--0-oneOf-2-2!node_modules/postcss-loader/lib/index.js??postcss!node_modules/font-awesome/css/font-awesome.min.css": [
+    {
+      "chunks": {
+        "byBlocks": {},
+        "byName": {},
+        "usedIds": {
+          "0": 0
+        }
+      },
+      "modules": {
+        "byIdentifier": {
+          "node_modules/css-loader/index.js?{\"importLoaders\":1,\"minimize\":true,\"sourceMap\":false,\"localIdentName\":\"[name]_[local]_[hash:base64:5]\"}!node_modules/postcss-loader/lib/index.js?{\"ident\":\"postcss\",\"sourceMap\":false}!node_modules/font-awesome/css/font-awesome.min.css": "FOHs",
+          "node_modules/css-loader/lib/css-base.js": "FZ+f",
+          "node_modules/css-loader/lib/url/escape.js": "kxFB",
+          "node_modules/file-loader/dist/cjs.js??ref--0-oneOf-4!node_modules/font-awesome/fonts/fontawesome-webfont.eot": "cmUn",
+          "node_modules/file-loader/dist/cjs.js??ref--0-oneOf-4!node_modules/font-awesome/fonts/fontawesome-webfont.eot?v=4.7.0": "cEaC",
+          "node_modules/file-loader/dist/cjs.js??ref--0-oneOf-4!node_modules/font-awesome/fonts/fontawesome-webfont.svg?v=4.7.0": "Fqd/",
+          "node_modules/file-loader/dist/cjs.js??ref--0-oneOf-4!node_modules/font-awesome/fonts/fontawesome-webfont.ttf?v=4.7.0": "IMLV",
+          "node_modules/file-loader/dist/cjs.js??ref--0-oneOf-4!node_modules/font-awesome/fonts/fontawesome-webfont.woff2?v=4.7.0": "of+2",
+          "node_modules/file-loader/dist/cjs.js??ref--0-oneOf-4!node_modules/font-awesome/fonts/fontawesome-webfont.woff?v=4.7.0": "jNsU"
+        },
+        "usedIds": {
+          "FOHs": "FOHs",
+          "FZ+f": "FZ+f",
+          "Fqd/": "Fqd/",
+          "IMLV": "IMLV",
+          "cEaC": "cEaC",
+          "cmUn": "cmUn",
+          "jNsU": "jNsU",
+          "kxFB": "kxFB",
+          "of+2": "of+2"
+        }
+      }
+    }
+  ],
+  "extract-text-webpack-plugin node_modules/extract-text-webpack-plugin/dist node_modules/css-loader/index.js??ref--0-oneOf-2-2!node_modules/postcss-loader/lib/index.js??postcss!src/App.css": [
+    {
+      "chunks": {
+        "byBlocks": {},
+        "byName": {},
+        "usedIds": {
+          "1": 1
+        }
+      },
+      "modules": {
+        "byIdentifier": {
+          "node_modules/css-loader/index.js?{\"importLoaders\":1,\"minimize\":true,\"sourceMap\":false,\"localIdentName\":\"[name]_[local]_[hash:base64:5]\"}!node_modules/postcss-loader/lib/index.js?{\"ident\":\"postcss\",\"sourceMap\":false,\"plugins\":[null,null]}!src/App.css": "./node_modules/css-loader/index.js?{\"importLoaders\":1,\"minimize\":true,\"sourceMap\":false,\"localIdentName\":\"[name]_[local]_[hash:base64:5]\"}!./node_modules/postcss-loader/lib/index.js?{\"ident\":\"postcss\",\"sourceMap\":false,\"plugins\":[null,null]}!./src/App.css",
+          "node_modules/css-loader/lib/css-base.js": "./node_modules/css-loader/lib/css-base.js"
+        },
+        "usedIds": {
+          "./node_modules/css-loader/index.js?{\"importLoaders\":1,\"minimize\":true,\"sourceMap\":false,\"localIdentName\":\"[name]_[local]_[hash:base64:5]\"}!./node_modules/postcss-loader/lib/index.js?{\"ident\":\"postcss\",\"sourceMap\":false,\"plugins\":[null,null]}!./src/App.css": "./node_modules/css-loader/index.js?{\"importLoaders\":1,\"minimize\":true,\"sourceMap\":false,\"localIdentName\":\"[name]_[local]_[hash:base64:5]\"}!./node_modules/postcss-loader/lib/index.js?{\"ident\":\"postcss\",\"sourceMap\":false,\"plugins\":[null,null]}!./src/App.css",
+          "./node_modules/css-loader/lib/css-base.js": "./node_modules/css-loader/lib/css-base.js"
+        }
+      }
+    }
+  ],
+  "extract-text-webpack-plugin node_modules/extract-text-webpack-plugin/dist node_modules/css-loader/index.js??ref--0-oneOf-3-2!node_modules/postcss-loader/lib/index.js??postcss!node_modules/sass-loader/lib/loader.js??ref--0-oneOf-3-4!src/components/header.scss": [
+    {
+      "chunks": {
+        "byBlocks": {},
+        "byName": {},
+        "usedIds": {
+          "0": 0
+        }
+      },
+      "modules": {
+        "byIdentifier": {
+          "node_modules/css-loader/index.js?{\"importLoaders\":2,\"minimize\":true,\"sourceMap\":false,\"localIdentName\":\"[name]_[local]_[hash:base64:5]\"}!node_modules/postcss-loader/lib/index.js?{\"ident\":\"postcss\",\"sourceMap\":false}!node_modules/sass-loader/lib/loader.js?{\"sourceMap\":false}!src/components/header.scss": "V7JD",
+          "node_modules/css-loader/lib/css-base.js": "FZ+f"
+        },
+        "usedIds": {
+          "FZ+f": "FZ+f",
+          "V7JD": "V7JD"
+        }
+      }
+    }
+  ],
   "html-webpack-plugin for \"index.html\"": [
     {
+      "chunks": {
+        "byBlocks": {},
+        "byName": {},
+        "usedIds": {
+          "0": 0
+        }
+      },
       "modules": {
         "byIdentifier": {
           "node_modules/html-webpack-plugin/lib/loader.js!src/index.html": "./node_modules/html-webpack-plugin/lib/loader.js!./src/index.html",
@@ -14,41 +156,56 @@
           "./node_modules/webpack/buildin/global.js": "./node_modules/webpack/buildin/global.js",
           "./node_modules/webpack/buildin/module.js": "./node_modules/webpack/buildin/module.js"
         }
-      },
-      "chunks": {
-        "byName": {},
-        "byBlocks": {},
-        "usedIds": {
-          "0": 0
-        }
-      }
-    }
-  ],
-  "extract-text-webpack-plugin node_modules/extract-text-webpack-plugin/dist node_modules/css-loader/index.js??ref--0-oneOf-2-2!node_modules/postcss-loader/lib/index.js??postcss!src/App.css": [
-    {
-      "modules": {
-        "byIdentifier": {
-          "node_modules/css-loader/index.js?{\"importLoaders\":1,\"minimize\":true,\"sourceMap\":false,\"localIdentName\":\"[name]_[local]_[hash:base64:5]\"}!node_modules/postcss-loader/lib/index.js?{\"ident\":\"postcss\",\"sourceMap\":false,\"plugins\":[null,null]}!src/App.css": "./node_modules/css-loader/index.js?{\"importLoaders\":1,\"minimize\":true,\"sourceMap\":false,\"localIdentName\":\"[name]_[local]_[hash:base64:5]\"}!./node_modules/postcss-loader/lib/index.js?{\"ident\":\"postcss\",\"sourceMap\":false,\"plugins\":[null,null]}!./src/App.css",
-          "node_modules/css-loader/lib/css-base.js": "./node_modules/css-loader/lib/css-base.js"
-        },
-        "usedIds": {
-          "./node_modules/css-loader/index.js?{\"importLoaders\":1,\"minimize\":true,\"sourceMap\":false,\"localIdentName\":\"[name]_[local]_[hash:base64:5]\"}!./node_modules/postcss-loader/lib/index.js?{\"ident\":\"postcss\",\"sourceMap\":false,\"plugins\":[null,null]}!./src/App.css": "./node_modules/css-loader/index.js?{\"importLoaders\":1,\"minimize\":true,\"sourceMap\":false,\"localIdentName\":\"[name]_[local]_[hash:base64:5]\"}!./node_modules/postcss-loader/lib/index.js?{\"ident\":\"postcss\",\"sourceMap\":false,\"plugins\":[null,null]}!./src/App.css",
-          "./node_modules/css-loader/lib/css-base.js": "./node_modules/css-loader/lib/css-base.js"
-        }
-      },
-      "chunks": {
-        "byName": {},
-        "byBlocks": {},
-        "usedIds": {
-          "1": 1
-        }
       }
     }
   ],
   "modules": {
     "byIdentifier": {
+      "./node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].oneOf[0].use!./src/index.jsx|0268296fc772550aae39fea20ad7bf37": 166,
+      "./node_modules/prop-types/factoryWithThrowingShims.js": 694,
+      "./node_modules/prop-types/index.js": 556,
+      "./node_modules/prop-types/lib/ReactPropTypesSecret.js": 925,
+      "./node_modules/react-dom/cjs/react-dom.production.min.js": 551,
+      "./node_modules/react-dom/client.js": 338,
+      "./node_modules/react-dom/index.js": 961,
+      "./node_modules/react/cjs/react-jsx-runtime.production.min.js": 20,
+      "./node_modules/react/cjs/react.production.min.js": 287,
+      "./node_modules/react/index.js": 540,
+      "./node_modules/react/jsx-runtime.js": 848,
+      "./node_modules/scheduler/cjs/scheduler.production.min.js": 463,
+      "./node_modules/scheduler/index.js": 982,
+      "./node_modules/use-sync-external-store/cjs/use-sync-external-store-with-selector.production.js": 160,
+      "./node_modules/use-sync-external-store/with-selector.js": 418,
+      "asset|./src/assets/images/avator.jpeg": 567,
+      "delegated 0 from dll-reference vendor_e2e4b0873fe01342b86d": "W2nU",
+      "delegated 1 from dll-reference vendor_e2e4b0873fe01342b86d": "e6+Q",
+      "delegated 17 from dll-reference vendor_e2e4b0873fe01342b86d": "gt/O",
+      "delegated 18 from dll-reference vendor_e2e4b0873fe01342b86d": "O27J",
+      "delegated 2 from dll-reference vendor_e2e4b0873fe01342b86d": "BEQ0",
+      "delegated 4 from dll-reference vendor_e2e4b0873fe01342b86d": "GiK3",
+      "delegated 5 from dll-reference vendor_e2e4b0873fe01342b86d": "cxPT",
+      "delegated 6 from dll-reference vendor_e2e4b0873fe01342b86d": "YyeZ",
+      "delegated 7 from dll-reference vendor_e2e4b0873fe01342b86d": "Ie6m",
+      "external \"vendor_e2e4b0873fe01342b86d\"": "aKIY",
+      "node_modules/babel-loader/lib/index.js??ref--0-oneOf-0-0!node_modules/eslint-loader/index.js!src/App.jsx": "./src/App.jsx",
+      "node_modules/babel-loader/lib/index.js??ref--0-oneOf-0-0!node_modules/eslint-loader/index.js!src/assets/lib/mplayer.js": "E82R",
+      "node_modules/babel-loader/lib/index.js??ref--0-oneOf-0-0!node_modules/eslint-loader/index.js!src/components/Header.jsx": "5l0t",
+      "node_modules/babel-loader/lib/index.js??ref--0-oneOf-0-0!node_modules/eslint-loader/index.js!src/components/Player.jsx": "5jdc",
+      "node_modules/babel-loader/lib/index.js??ref--0-oneOf-0-0!node_modules/eslint-loader/index.js!src/components/PlayerList.jsx": "eoDh",
+      "node_modules/babel-loader/lib/index.js??ref--0-oneOf-0-0!node_modules/eslint-loader/index.js!src/components/Progress.jsx": "jyFb",
+      "node_modules/babel-loader/lib/index.js??ref--0-oneOf-0-0!node_modules/eslint-loader/index.js!src/index.jsx": "./src/index.jsx",
+      "node_modules/babel-loader/lib/index.js??ref--0-oneOf-0-0!node_modules/eslint-loader/index.js!src/reducers/index.js": "ChGC",
+      "node_modules/babel-loader/lib/index.js??ref--0-oneOf-0-0!node_modules/eslint-loader/index.js!src/reducers/testReducer.js": "UVju",
+      "node_modules/css-loader/index.js?{\"importLoaders\":1,\"minimize\":true,\"sourceMap\":false,\"localIdentName\":\"[name]_[local]_[hash:base64:5]\"}!node_modules/postcss-loader/lib/index.js?{\"ident\":\"postcss\",\"sourceMap\":false}!node_modules/bootstrap/dist/css/bootstrap.min.css": "c7y6",
+      "node_modules/css-loader/index.js?{\"importLoaders\":1,\"minimize\":true,\"sourceMap\":false,\"localIdentName\":\"[name]_[local]_[hash:base64:5]\"}!node_modules/postcss-loader/lib/index.js?{\"ident\":\"postcss\",\"sourceMap\":false}!node_modules/font-awesome/css/font-awesome.min.css": "FOHs",
       "node_modules/css-loader/index.js?{\"importLoaders\":1,\"minimize\":true,\"sourceMap\":false,\"localIdentName\":\"[name]_[local]_[hash:base64:5]\"}!node_modules/postcss-loader/lib/index.js?{\"ident\":\"postcss\",\"sourceMap\":false}!src/App.css": "./node_modules/css-loader/index.js?{\"importLoaders\":1,\"minimize\":true,\"sourceMap\":false,\"localIdentName\":\"[name]_[local]_[hash:base64:5]\"}!./node_modules/postcss-loader/lib/index.js?{\"ident\":\"postcss\",\"sourceMap\":false}!./src/App.css",
+      "node_modules/css-loader/index.js?{\"importLoaders\":2,\"minimize\":true,\"sourceMap\":false,\"localIdentName\":\"[name]_[local]_[hash:base64:5]\"}!node_modules/postcss-loader/lib/index.js?{\"ident\":\"postcss\",\"sourceMap\":false}!node_modules/sass-loader/lib/loader.js?{\"sourceMap\":false}!src/components/header.scss": "V7JD",
       "node_modules/css-loader/lib/css-base.js": "./node_modules/css-loader/lib/css-base.js",
+      "node_modules/css-loader/lib/url/escape.js": "kxFB",
+      "node_modules/extract-text-webpack-plugin/dist/loader.js??ref--0-oneOf-2-0!node_modules/style-loader/index.js??ref--0-oneOf-2-1!node_modules/css-loader/index.js??ref--0-oneOf-2-2!node_modules/postcss-loader/lib/index.js??postcss!node_modules/bootstrap/dist/css/bootstrap.min.css": "qb6w",
+      "node_modules/extract-text-webpack-plugin/dist/loader.js??ref--0-oneOf-2-0!node_modules/style-loader/index.js??ref--0-oneOf-2-1!node_modules/css-loader/index.js??ref--0-oneOf-2-2!node_modules/postcss-loader/lib/index.js??postcss!node_modules/font-awesome/css/font-awesome.min.css": "e0XP",
+      "node_modules/extract-text-webpack-plugin/dist/loader.js??ref--0-oneOf-2-0!node_modules/style-loader/index.js??ref--0-oneOf-2-1!node_modules/css-loader/index.js??ref--0-oneOf-2-2!node_modules/postcss-loader/lib/index.js??postcss!src/App.css": "./src/App.css",
+      "node_modules/extract-text-webpack-plugin/dist/loader.js??ref--0-oneOf-3-0!node_modules/style-loader/index.js??ref--0-oneOf-3-1!node_modules/css-loader/index.js??ref--0-oneOf-3-2!node_modules/postcss-loader/lib/index.js??postcss!node_modules/sass-loader/lib/loader.js??ref--0-oneOf-3-4!src/components/header.scss": "DoyV",
       "node_modules/fbjs/lib/EventListener.js": "./node_modules/fbjs/lib/EventListener.js",
       "node_modules/fbjs/lib/ExecutionEnvironment.js": "./node_modules/fbjs/lib/ExecutionEnvironment.js",
       "node_modules/fbjs/lib/camelize.js": "./node_modules/fbjs/lib/camelize.js",
@@ -65,290 +222,86 @@
       "node_modules/fbjs/lib/isTextNode.js": "./node_modules/fbjs/lib/isTextNode.js",
       "node_modules/fbjs/lib/shallowEqual.js": "./node_modules/fbjs/lib/shallowEqual.js",
       "node_modules/fbjs/lib/warning.js": "./node_modules/fbjs/lib/warning.js",
+      "node_modules/file-loader/dist/cjs.js??ref--0-oneOf-4!node_modules/font-awesome/fonts/fontawesome-webfont.eot": "cmUn",
+      "node_modules/file-loader/dist/cjs.js??ref--0-oneOf-4!node_modules/font-awesome/fonts/fontawesome-webfont.eot?v=4.7.0": "cEaC",
+      "node_modules/file-loader/dist/cjs.js??ref--0-oneOf-4!node_modules/font-awesome/fonts/fontawesome-webfont.svg?v=4.7.0": "Fqd/",
+      "node_modules/file-loader/dist/cjs.js??ref--0-oneOf-4!node_modules/font-awesome/fonts/fontawesome-webfont.ttf?v=4.7.0": "IMLV",
+      "node_modules/file-loader/dist/cjs.js??ref--0-oneOf-4!node_modules/font-awesome/fonts/fontawesome-webfont.woff2?v=4.7.0": "of+2",
+      "node_modules/file-loader/dist/cjs.js??ref--0-oneOf-4!node_modules/font-awesome/fonts/fontawesome-webfont.woff?v=4.7.0": "jNsU",
+      "node_modules/file-loader/dist/cjs.js??ref--0-oneOf-4!src/assets/audio/Hymn-For-The-Weekend.mp3": "NQJG",
+      "node_modules/hoist-non-react-statics/index.js": "hYij",
+      "node_modules/invariant/browser.js": "crWv",
+      "node_modules/lodash-es/_Symbol.js": "EZG+",
+      "node_modules/lodash-es/_baseGetTag.js": "wqbf",
+      "node_modules/lodash-es/_freeGlobal.js": "nSxQ",
+      "node_modules/lodash-es/_getPrototype.js": "J/I/",
+      "node_modules/lodash-es/_getRawTag.js": "LF1K",
+      "node_modules/lodash-es/_objectToString.js": "X0mE",
+      "node_modules/lodash-es/_overArg.js": "28Po",
+      "node_modules/lodash-es/_root.js": "WlpS",
+      "node_modules/lodash-es/isObjectLike.js": "YByk",
+      "node_modules/lodash-es/isPlainObject.js": "sMP3",
       "node_modules/object-assign/index.js": "./node_modules/object-assign/index.js",
       "node_modules/process/browser.js": "./node_modules/process/browser.js",
       "node_modules/prop-types/checkPropTypes.js": "./node_modules/prop-types/checkPropTypes.js",
+      "node_modules/prop-types/factoryWithThrowingShims.js": "Q4WQ",
+      "node_modules/prop-types/factoryWithTypeCheckers.js": "JtmH",
+      "node_modules/prop-types/index.js": "KSGD",
       "node_modules/prop-types/lib/ReactPropTypesSecret.js": "./node_modules/prop-types/lib/ReactPropTypesSecret.js",
       "node_modules/react-dom/cjs/react-dom.development.js": "./node_modules/react-dom/cjs/react-dom.development.js",
       "node_modules/react-dom/cjs/react-dom.production.min.js": "./node_modules/react-dom/cjs/react-dom.production.min.js",
       "node_modules/react-dom/index.js": "./node_modules/react-dom/index.js",
+      "node_modules/react-redux/es/components/Provider.js": "PMgr",
+      "node_modules/react-redux/es/components/connectAdvanced.js": "SAW1",
+      "node_modules/react-redux/es/connect/connect.js": "yyvF",
+      "node_modules/react-redux/es/connect/mapDispatchToProps.js": "l5Tb",
+      "node_modules/react-redux/es/connect/mapStateToProps.js": "1iL5",
+      "node_modules/react-redux/es/connect/mergeProps.js": "QGoG",
+      "node_modules/react-redux/es/connect/selectorFactory.js": "VDa7",
+      "node_modules/react-redux/es/connect/verifySubselectors.js": "mqO+",
+      "node_modules/react-redux/es/connect/wrapMapToProps.js": "U33l",
+      "node_modules/react-redux/es/index.js": "RH2O",
+      "node_modules/react-redux/es/utils/PropTypes.js": "faAt",
+      "node_modules/react-redux/es/utils/Subscription.js": "MCT5",
+      "node_modules/react-redux/es/utils/shallowEqual.js": "aQGf",
+      "node_modules/react-redux/es/utils/verifyPlainObject.js": "Htzn",
+      "node_modules/react-redux/es/utils/warning.js": "byaS",
       "node_modules/react/cjs/react.development.js": "./node_modules/react/cjs/react.development.js",
       "node_modules/react/cjs/react.production.min.js": "./node_modules/react/cjs/react.production.min.js",
       "node_modules/react/index.js": "./node_modules/react/index.js",
+      "node_modules/redux/es/applyMiddleware.js": "vgv3",
+      "node_modules/redux/es/bindActionCreators.js": "lCUn",
+      "node_modules/redux/es/combineReducers.js": "x52Y",
+      "node_modules/redux/es/compose.js": "lMc7",
+      "node_modules/redux/es/createStore.js": "ZBO9",
+      "node_modules/redux/es/index.js": "2KeS",
+      "node_modules/redux/es/utils/warning.js": "DEeB",
       "node_modules/style-loader/lib/addStyles.js": "./node_modules/style-loader/lib/addStyles.js",
       "node_modules/style-loader/lib/urls.js": "./node_modules/style-loader/lib/urls.js",
-      "node_modules/extract-text-webpack-plugin/dist/loader.js??ref--0-oneOf-2-0!node_modules/style-loader/index.js??ref--0-oneOf-2-1!node_modules/css-loader/index.js??ref--0-oneOf-2-2!node_modules/postcss-loader/lib/index.js??postcss!src/App.css": "./src/App.css",
-      "node_modules/babel-loader/lib/index.js??ref--0-oneOf-0-0!node_modules/eslint-loader/index.js!src/App.jsx": "./src/App.jsx",
-      "node_modules/babel-loader/lib/index.js??ref--0-oneOf-0-0!node_modules/eslint-loader/index.js!src/index.jsx": "./src/index.jsx",
-      "delegated 4 from dll-reference vendor_e2e4b0873fe01342b86d": "GiK3",
-      "delegated 18 from dll-reference vendor_e2e4b0873fe01342b86d": "O27J",
-      "external \"vendor_e2e4b0873fe01342b86d\"": "aKIY",
-      "node_modules/react-redux/es/connect/mapStateToProps.js": "1iL5",
-      "node_modules/lodash-es/_overArg.js": "28Po",
-      "node_modules/redux/es/index.js": "2KeS",
       "node_modules/symbol-observable/index.js": "2MIV",
-      "node_modules/webpack/buildin/module.js": "3IRH",
-      "node_modules/babel-loader/lib/index.js??ref--0-oneOf-0-0!node_modules/eslint-loader/index.js!src/components/Player.jsx": "5jdc",
-      "node_modules/babel-loader/lib/index.js??ref--0-oneOf-0-0!node_modules/eslint-loader/index.js!src/components/Header.jsx": "5l0t",
-      "delegated 2 from dll-reference vendor_e2e4b0873fe01342b86d": "BEQ0",
-      "node_modules/babel-loader/lib/index.js??ref--0-oneOf-0-0!node_modules/eslint-loader/index.js!src/reducers/index.js": "ChGC",
-      "node_modules/redux/es/utils/warning.js": "DEeB",
-      "node_modules/extract-text-webpack-plugin/dist/loader.js??ref--0-oneOf-3-0!node_modules/style-loader/index.js??ref--0-oneOf-3-1!node_modules/css-loader/index.js??ref--0-oneOf-3-2!node_modules/postcss-loader/lib/index.js??postcss!node_modules/sass-loader/lib/loader.js??ref--0-oneOf-3-4!src/components/header.scss": "DoyV",
-      "node_modules/webpack/buildin/global.js": "DuR2",
-      "node_modules/babel-loader/lib/index.js??ref--0-oneOf-0-0!node_modules/eslint-loader/index.js!src/assets/lib/mplayer.js": "E82R",
-      "node_modules/lodash-es/_Symbol.js": "EZG+",
-      "node_modules/css-loader/index.js?{\"importLoaders\":1,\"minimize\":true,\"sourceMap\":false,\"localIdentName\":\"[name]_[local]_[hash:base64:5]\"}!node_modules/postcss-loader/lib/index.js?{\"ident\":\"postcss\",\"sourceMap\":false}!node_modules/font-awesome/css/font-awesome.min.css": "FOHs",
-      "node_modules/file-loader/dist/cjs.js??ref--0-oneOf-4!node_modules/font-awesome/fonts/fontawesome-webfont.svg?v=4.7.0": "Fqd/",
-      "node_modules/react-redux/es/utils/verifyPlainObject.js": "Htzn",
-      "node_modules/file-loader/dist/cjs.js??ref--0-oneOf-4!node_modules/font-awesome/fonts/fontawesome-webfont.ttf?v=4.7.0": "IMLV",
-      "delegated 7 from dll-reference vendor_e2e4b0873fe01342b86d": "Ie6m",
-      "node_modules/lodash-es/_getPrototype.js": "J/I/",
-      "node_modules/prop-types/factoryWithTypeCheckers.js": "JtmH",
-      "node_modules/prop-types/index.js": "KSGD",
-      "node_modules/lodash-es/_getRawTag.js": "LF1K",
-      "node_modules/react-redux/es/utils/Subscription.js": "MCT5",
-      "node_modules/file-loader/dist/cjs.js??ref--0-oneOf-4!src/assets/audio/Hymn-For-The-Weekend.mp3": "NQJG",
-      "node_modules/react-redux/es/components/Provider.js": "PMgr",
-      "node_modules/prop-types/factoryWithThrowingShims.js": "Q4WQ",
-      "node_modules/react-redux/es/connect/mergeProps.js": "QGoG",
-      "node_modules/react-redux/es/index.js": "RH2O",
-      "node_modules/react-redux/es/components/connectAdvanced.js": "SAW1",
-      "node_modules/react-redux/es/connect/wrapMapToProps.js": "U33l",
-      "node_modules/babel-loader/lib/index.js??ref--0-oneOf-0-0!node_modules/eslint-loader/index.js!src/reducers/testReducer.js": "UVju",
-      "node_modules/css-loader/index.js?{\"importLoaders\":2,\"minimize\":true,\"sourceMap\":false,\"localIdentName\":\"[name]_[local]_[hash:base64:5]\"}!node_modules/postcss-loader/lib/index.js?{\"ident\":\"postcss\",\"sourceMap\":false}!node_modules/sass-loader/lib/loader.js?{\"sourceMap\":false}!src/components/header.scss": "V7JD",
-      "node_modules/react-redux/es/connect/selectorFactory.js": "VDa7",
-      "delegated 0 from dll-reference vendor_e2e4b0873fe01342b86d": "W2nU",
-      "node_modules/lodash-es/_root.js": "WlpS",
-      "node_modules/lodash-es/_objectToString.js": "X0mE",
-      "node_modules/lodash-es/isObjectLike.js": "YByk",
-      "delegated 6 from dll-reference vendor_e2e4b0873fe01342b86d": "YyeZ",
-      "node_modules/redux/es/createStore.js": "ZBO9",
-      "node_modules/react-redux/es/utils/shallowEqual.js": "aQGf",
       "node_modules/symbol-observable/lib/index.js": "bFAv",
-      "node_modules/react-redux/es/utils/warning.js": "byaS",
-      "node_modules/css-loader/index.js?{\"importLoaders\":1,\"minimize\":true,\"sourceMap\":false,\"localIdentName\":\"[name]_[local]_[hash:base64:5]\"}!node_modules/postcss-loader/lib/index.js?{\"ident\":\"postcss\",\"sourceMap\":false}!node_modules/bootstrap/dist/css/bootstrap.min.css": "c7y6",
-      "node_modules/file-loader/dist/cjs.js??ref--0-oneOf-4!node_modules/font-awesome/fonts/fontawesome-webfont.eot?v=4.7.0": "cEaC",
-      "node_modules/file-loader/dist/cjs.js??ref--0-oneOf-4!node_modules/font-awesome/fonts/fontawesome-webfont.eot": "cmUn",
-      "node_modules/invariant/browser.js": "crWv",
-      "delegated 5 from dll-reference vendor_e2e4b0873fe01342b86d": "cxPT",
-      "node_modules/extract-text-webpack-plugin/dist/loader.js??ref--0-oneOf-2-0!node_modules/style-loader/index.js??ref--0-oneOf-2-1!node_modules/css-loader/index.js??ref--0-oneOf-2-2!node_modules/postcss-loader/lib/index.js??postcss!node_modules/font-awesome/css/font-awesome.min.css": "e0XP",
-      "delegated 1 from dll-reference vendor_e2e4b0873fe01342b86d": "e6+Q",
-      "node_modules/babel-loader/lib/index.js??ref--0-oneOf-0-0!node_modules/eslint-loader/index.js!src/components/PlayerList.jsx": "eoDh",
-      "node_modules/react-redux/es/utils/PropTypes.js": "faAt",
+      "node_modules/symbol-observable/lib/ponyfill.js": "zzRL",
       "node_modules/url-loader/index.js??ref--0-oneOf-1!src/assets/images/avator.jpeg": "foMb",
-      "delegated 17 from dll-reference vendor_e2e4b0873fe01342b86d": "gt/O",
-      "node_modules/hoist-non-react-statics/index.js": "hYij",
-      "node_modules/file-loader/dist/cjs.js??ref--0-oneOf-4!node_modules/font-awesome/fonts/fontawesome-webfont.woff?v=4.7.0": "jNsU",
-      "node_modules/babel-loader/lib/index.js??ref--0-oneOf-0-0!node_modules/eslint-loader/index.js!src/components/Progress.jsx": "jyFb",
-      "node_modules/css-loader/lib/url/escape.js": "kxFB",
-      "node_modules/react-redux/es/connect/mapDispatchToProps.js": "l5Tb",
-      "node_modules/redux/es/bindActionCreators.js": "lCUn",
-      "node_modules/redux/es/compose.js": "lMc7",
-      "node_modules/react-redux/es/connect/verifySubselectors.js": "mqO+",
-      "node_modules/lodash-es/_freeGlobal.js": "nSxQ",
-      "node_modules/file-loader/dist/cjs.js??ref--0-oneOf-4!node_modules/font-awesome/fonts/fontawesome-webfont.woff2?v=4.7.0": "of+2",
-      "node_modules/extract-text-webpack-plugin/dist/loader.js??ref--0-oneOf-2-0!node_modules/style-loader/index.js??ref--0-oneOf-2-1!node_modules/css-loader/index.js??ref--0-oneOf-2-2!node_modules/postcss-loader/lib/index.js??postcss!node_modules/bootstrap/dist/css/bootstrap.min.css": "qb6w",
-      "node_modules/lodash-es/isPlainObject.js": "sMP3",
-      "node_modules/redux/es/applyMiddleware.js": "vgv3",
-      "node_modules/lodash-es/_baseGetTag.js": "wqbf",
-      "node_modules/redux/es/combineReducers.js": "x52Y",
-      "node_modules/react-redux/es/connect/connect.js": "yyvF",
-      "node_modules/symbol-observable/lib/ponyfill.js": "zzRL"
+      "node_modules/webpack/buildin/global.js": "DuR2",
+      "node_modules/webpack/buildin/module.js": "3IRH"
     },
-    "usedIds": {
-      "./node_modules/css-loader/index.js?{\"importLoaders\":1,\"minimize\":true,\"sourceMap\":false,\"localIdentName\":\"[name]_[local]_[hash:base64:5]\"}!./node_modules/postcss-loader/lib/index.js?{\"ident\":\"postcss\",\"sourceMap\":false}!./src/App.css": "./node_modules/css-loader/index.js?{\"importLoaders\":1,\"minimize\":true,\"sourceMap\":false,\"localIdentName\":\"[name]_[local]_[hash:base64:5]\"}!./node_modules/postcss-loader/lib/index.js?{\"ident\":\"postcss\",\"sourceMap\":false}!./src/App.css",
-      "./node_modules/css-loader/lib/css-base.js": "./node_modules/css-loader/lib/css-base.js",
-      "./node_modules/fbjs/lib/EventListener.js": "./node_modules/fbjs/lib/EventListener.js",
-      "./node_modules/fbjs/lib/ExecutionEnvironment.js": "./node_modules/fbjs/lib/ExecutionEnvironment.js",
-      "./node_modules/fbjs/lib/camelize.js": "./node_modules/fbjs/lib/camelize.js",
-      "./node_modules/fbjs/lib/camelizeStyleName.js": "./node_modules/fbjs/lib/camelizeStyleName.js",
-      "./node_modules/fbjs/lib/containsNode.js": "./node_modules/fbjs/lib/containsNode.js",
-      "./node_modules/fbjs/lib/emptyFunction.js": "./node_modules/fbjs/lib/emptyFunction.js",
-      "./node_modules/fbjs/lib/emptyObject.js": "./node_modules/fbjs/lib/emptyObject.js",
-      "./node_modules/fbjs/lib/focusNode.js": "./node_modules/fbjs/lib/focusNode.js",
-      "./node_modules/fbjs/lib/getActiveElement.js": "./node_modules/fbjs/lib/getActiveElement.js",
-      "./node_modules/fbjs/lib/hyphenate.js": "./node_modules/fbjs/lib/hyphenate.js",
-      "./node_modules/fbjs/lib/hyphenateStyleName.js": "./node_modules/fbjs/lib/hyphenateStyleName.js",
-      "./node_modules/fbjs/lib/invariant.js": "./node_modules/fbjs/lib/invariant.js",
-      "./node_modules/fbjs/lib/isNode.js": "./node_modules/fbjs/lib/isNode.js",
-      "./node_modules/fbjs/lib/isTextNode.js": "./node_modules/fbjs/lib/isTextNode.js",
-      "./node_modules/fbjs/lib/shallowEqual.js": "./node_modules/fbjs/lib/shallowEqual.js",
-      "./node_modules/fbjs/lib/warning.js": "./node_modules/fbjs/lib/warning.js",
-      "./node_modules/object-assign/index.js": "./node_modules/object-assign/index.js",
-      "./node_modules/process/browser.js": "./node_modules/process/browser.js",
-      "./node_modules/prop-types/checkPropTypes.js": "./node_modules/prop-types/checkPropTypes.js",
-      "./node_modules/prop-types/lib/ReactPropTypesSecret.js": "./node_modules/prop-types/lib/ReactPropTypesSecret.js",
-      "./node_modules/react-dom/cjs/react-dom.development.js": "./node_modules/react-dom/cjs/react-dom.development.js",
-      "./node_modules/react-dom/cjs/react-dom.production.min.js": "./node_modules/react-dom/cjs/react-dom.production.min.js",
-      "./node_modules/react-dom/index.js": "./node_modules/react-dom/index.js",
-      "./node_modules/react/cjs/react.development.js": "./node_modules/react/cjs/react.development.js",
-      "./node_modules/react/cjs/react.production.min.js": "./node_modules/react/cjs/react.production.min.js",
-      "./node_modules/react/index.js": "./node_modules/react/index.js",
-      "./node_modules/style-loader/lib/addStyles.js": "./node_modules/style-loader/lib/addStyles.js",
-      "./node_modules/style-loader/lib/urls.js": "./node_modules/style-loader/lib/urls.js",
-      "./src/App.css": "./src/App.css",
-      "./src/App.jsx": "./src/App.jsx",
-      "./src/index.jsx": "./src/index.jsx",
-      "GiK3": "GiK3",
-      "O27J": "O27J",
-      "aKIY": "aKIY",
-      "1iL5": "1iL5",
-      "28Po": "28Po",
-      "2KeS": "2KeS",
-      "2MIV": "2MIV",
-      "3IRH": "3IRH",
-      "5jdc": "5jdc",
-      "5l0t": "5l0t",
-      "BEQ0": "BEQ0",
-      "ChGC": "ChGC",
-      "DEeB": "DEeB",
-      "DoyV": "DoyV",
-      "DuR2": "DuR2",
-      "E82R": "E82R",
-      "EZG+": "EZG+",
-      "FOHs": "FOHs",
-      "Fqd/": "Fqd/",
-      "Htzn": "Htzn",
-      "IMLV": "IMLV",
-      "Ie6m": "Ie6m",
-      "J/I/": "J/I/",
-      "JtmH": "JtmH",
-      "KSGD": "KSGD",
-      "LF1K": "LF1K",
-      "MCT5": "MCT5",
-      "NQJG": "NQJG",
-      "PMgr": "PMgr",
-      "Q4WQ": "Q4WQ",
-      "QGoG": "QGoG",
-      "RH2O": "RH2O",
-      "SAW1": "SAW1",
-      "U33l": "U33l",
-      "UVju": "UVju",
-      "V7JD": "V7JD",
-      "VDa7": "VDa7",
-      "W2nU": "W2nU",
-      "WlpS": "WlpS",
-      "X0mE": "X0mE",
-      "YByk": "YByk",
-      "YyeZ": "YyeZ",
-      "ZBO9": "ZBO9",
-      "aQGf": "aQGf",
-      "bFAv": "bFAv",
-      "byaS": "byaS",
-      "c7y6": "c7y6",
-      "cEaC": "cEaC",
-      "cmUn": "cmUn",
-      "crWv": "crWv",
-      "cxPT": "cxPT",
-      "e0XP": "e0XP",
-      "e6+Q": "e6+Q",
-      "eoDh": "eoDh",
-      "faAt": "faAt",
-      "foMb": "foMb",
-      "gt/O": "gt/O",
-      "hYij": "hYij",
-      "jNsU": "jNsU",
-      "jyFb": "jyFb",
-      "kxFB": "kxFB",
-      "l5Tb": "l5Tb",
-      "lCUn": "lCUn",
-      "lMc7": "lMc7",
-      "mqO+": "mqO+",
-      "nSxQ": "nSxQ",
-      "of+2": "of+2",
-      "qb6w": "qb6w",
-      "sMP3": "sMP3",
-      "vgv3": "vgv3",
-      "wqbf": "wqbf",
-      "x52Y": "x52Y",
-      "yyvF": "yyvF",
-      "zzRL": "zzRL"
-    }
-  },
-  "chunks": {
-    "byName": {
-      "app": 0
-    },
-    "byBlocks": {},
-    "usedIds": {
-      "0": 0
-    }
-  },
-  "extract-text-webpack-plugin node_modules/extract-text-webpack-plugin/dist node_modules/css-loader/index.js??ref--0-oneOf-2-2!node_modules/postcss-loader/lib/index.js??postcss!node_modules/bootstrap/dist/css/bootstrap.min.css": [
-    {
-      "modules": {
-        "byIdentifier": {
-          "node_modules/css-loader/lib/css-base.js": "FZ+f",
-          "node_modules/css-loader/index.js?{\"importLoaders\":1,\"minimize\":true,\"sourceMap\":false,\"localIdentName\":\"[name]_[local]_[hash:base64:5]\"}!node_modules/postcss-loader/lib/index.js?{\"ident\":\"postcss\",\"sourceMap\":false}!node_modules/bootstrap/dist/css/bootstrap.min.css": "c7y6"
-        },
-        "usedIds": {
-          "FZ+f": "FZ+f",
-          "c7y6": "c7y6"
-        }
-      },
-      "chunks": {
-        "byName": {},
-        "byBlocks": {},
-        "usedIds": {
-          "0": 0
-        }
-      }
-    }
-  ],
-  "extract-text-webpack-plugin node_modules/extract-text-webpack-plugin/dist node_modules/css-loader/index.js??ref--0-oneOf-2-2!node_modules/postcss-loader/lib/index.js??postcss!node_modules/font-awesome/css/font-awesome.min.css": [
-    {
-      "modules": {
-        "byIdentifier": {
-          "node_modules/css-loader/index.js?{\"importLoaders\":1,\"minimize\":true,\"sourceMap\":false,\"localIdentName\":\"[name]_[local]_[hash:base64:5]\"}!node_modules/postcss-loader/lib/index.js?{\"ident\":\"postcss\",\"sourceMap\":false}!node_modules/font-awesome/css/font-awesome.min.css": "FOHs",
-          "node_modules/css-loader/lib/css-base.js": "FZ+f",
-          "node_modules/file-loader/dist/cjs.js??ref--0-oneOf-4!node_modules/font-awesome/fonts/fontawesome-webfont.svg?v=4.7.0": "Fqd/",
-          "node_modules/file-loader/dist/cjs.js??ref--0-oneOf-4!node_modules/font-awesome/fonts/fontawesome-webfont.ttf?v=4.7.0": "IMLV",
-          "node_modules/file-loader/dist/cjs.js??ref--0-oneOf-4!node_modules/font-awesome/fonts/fontawesome-webfont.eot?v=4.7.0": "cEaC",
-          "node_modules/file-loader/dist/cjs.js??ref--0-oneOf-4!node_modules/font-awesome/fonts/fontawesome-webfont.eot": "cmUn",
-          "node_modules/file-loader/dist/cjs.js??ref--0-oneOf-4!node_modules/font-awesome/fonts/fontawesome-webfont.woff?v=4.7.0": "jNsU",
-          "node_modules/css-loader/lib/url/escape.js": "kxFB",
-          "node_modules/file-loader/dist/cjs.js??ref--0-oneOf-4!node_modules/font-awesome/fonts/fontawesome-webfont.woff2?v=4.7.0": "of+2"
-        },
-        "usedIds": {
-          "FOHs": "FOHs",
-          "FZ+f": "FZ+f",
-          "Fqd/": "Fqd/",
-          "IMLV": "IMLV",
-          "cEaC": "cEaC",
-          "cmUn": "cmUn",
-          "jNsU": "jNsU",
-          "kxFB": "kxFB",
-          "of+2": "of+2"
-        }
-      },
-      "chunks": {
-        "byName": {},
-        "byBlocks": {},
-        "usedIds": {
-          "0": 0
-        }
-      }
-    }
-  ],
-  "extract-text-webpack-plugin node_modules/extract-text-webpack-plugin/dist node_modules/css-loader/index.js??ref--0-oneOf-3-2!node_modules/postcss-loader/lib/index.js??postcss!node_modules/sass-loader/lib/loader.js??ref--0-oneOf-3-4!src/components/header.scss": [
-    {
-      "modules": {
-        "byIdentifier": {
-          "node_modules/css-loader/lib/css-base.js": "FZ+f",
-          "node_modules/css-loader/index.js?{\"importLoaders\":2,\"minimize\":true,\"sourceMap\":false,\"localIdentName\":\"[name]_[local]_[hash:base64:5]\"}!node_modules/postcss-loader/lib/index.js?{\"ident\":\"postcss\",\"sourceMap\":false}!node_modules/sass-loader/lib/loader.js?{\"sourceMap\":false}!src/components/header.scss": "V7JD"
-        },
-        "usedIds": {
-          "FZ+f": "FZ+f",
-          "V7JD": "V7JD"
-        }
-      },
-      "chunks": {
-        "byName": {},
-        "byBlocks": {},
-        "usedIds": {
-          "0": 0
-        }
-      }
-    }
-  ]
+    "usedIds": [
+      20,
+      160,
+      166,
+      287,
+      338,
+      418,
+      463,
+      540,
+      551,
+      556,
+      567,
+      694,
+      848,
+      925,
+      961,
+      982
+    ]
+  }
 }

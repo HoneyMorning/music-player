@@ -1,14 +1,14 @@
-import React from 'react';
-import { shallow } from 'enzyme';
-
+import { render, screen } from '@testing-library/react';
 import Header from './Header';
 
 describe('<Header />', () => {
   it('should render without throwing an error', () => {
-    expect(shallow(<Header />).find('nav')).toHaveLength(1);
+    const { container } = render(<Header />);
+    expect(container.querySelector('nav')).toBeTruthy();
   });
 
   it('should render to static HTML', () => {
-    expect(shallow(<Header />).text()).toEqual('Music player');
+    render(<Header />);
+    expect(screen.getByText('Music player')).toBeTruthy();
   });
 });

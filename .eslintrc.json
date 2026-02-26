@@ -1,8 +1,8 @@
 {
-  "parser": "babel-eslint",
+  "parser": "@babel/eslint-parser",
   "extends": ["airbnb"],
   "parserOptions": {
-    "ecmaVersion": 7,
+    "ecmaVersion": "latest",
     "sourceType": "module",
     "ecmaFeatures": {
       "jsx": true
@@ -18,15 +18,20 @@
     "no-console": [2, {"allow": ["warn", "error"]}],
     "no-plusplus": 0,
     "jsx-a11y/click-events-have-key-events": 0,
-    "no-mixed-operators": 0
+    "no-mixed-operators": 0,
+    "operator-linebreak": 0,
+    "default-param-last": 0,
+    "react/react-in-jsx-scope": "off",
+    "react/jsx-uses-react": "off"
   },
   "plugins": [
     "react",
     "jsx-a11y",
-    "import",
-    "jest"
+    "import"
   ],
-  "globals": {
-
+  "settings": {
+    "react": {
+      "version": "detect"
+    }
   }
 }

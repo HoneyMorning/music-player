@@ -1,10 +1,10 @@
 import 'font-awesome/css/font-awesome.min.css';
-import React from 'react';
+import { Component } from 'react';
 import MPlayer from '../assets/lib/mplayer';
 import PlayerList from './PlayerList';
 import PlayerCard from './PlayerCard';
 
-class Player extends React.Component {
+class Player extends Component {
   constructor(props) {
     super(props);
     this.state = {
@@ -28,6 +28,22 @@ class Player extends React.Component {
     this.audio = new MPlayer('audio');
   }
 
+  handlePlay() {
+    const { playing } = this.state;
+
+    if (playing) {
+      this.audio.pause();
+      window.cancelAnimationFrame(this.progressID);
+    } else {
+      this.audio.play();
+      this.progressID = window.requestAnimationFrame(this.playingProgress);
+    }
+
+    this.setState({
+      playing: !playing,
+    });
+  }
+
   playingProgress() {
     this.setState({
       duration: this.audio.progress.totalTime,
@@ -39,25 +55,8 @@ class Player extends React.Component {
     }
   }
 
-  handlePlay() {
-    const { playing } = this.state;
-
-    if (playing) {
-      // stop
-      this.audio.pause();
-      window.cancelAnimationFrame(this.progressID);
-    } else {
-      // play
-      this.audio.play();
-      this.progressID = window.requestAnimationFrame(this.playingProgress);
-    }
-
-    this.setState({
-      playing: !playing,
-    });
-  }
-
   render() {
+    const { playing, duration, current } = this.state;
     return (
       <section style={{ paddingTop: '40px', paddingBottom: '40px' }}>
         <div className="row">
@@ -65,9 +64,9 @@ class Player extends React.Component {
             <PlayerCard
               cardItem={this.cardItem}
               handlePlay={this.handlePlay}
-              playing={this.state.playing}
-              duration={this.state.duration}
-              current={this.state.current}
+              playing={playing}
+              duration={duration}
+              current={current}
             />
           </div>
 
